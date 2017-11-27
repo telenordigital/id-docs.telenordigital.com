@@ -1,6 +1,6 @@
 ---
-title: Docs Scaffold
-description: The documentation scaffold makes creating beautiful documentation fast and simple!
+title: CONNECT ID Documentation
+description: Documentation centre for CONNECT ID.
 lunr: true
 nav_sort: 0
 nav_groups:
@@ -12,4 +12,3 @@ tags:
   - index
   - home
 ---
-CONNECT ID documentation
