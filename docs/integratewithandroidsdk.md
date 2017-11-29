@@ -1,5 +1,5 @@
 ---
-title: How to integrate with Android SDK
+title: Android SDK integration
 description: Detailed information on using the CONNECT Android SDK for integration.
 lunr: true
 nav_sort: 1
