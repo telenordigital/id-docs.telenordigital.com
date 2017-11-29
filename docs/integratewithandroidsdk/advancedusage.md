@@ -16,8 +16,8 @@ tags:
 
 ## Adding a ConnectLoginButton
 
-To let the SDK handle Connect ID login, a `ConnectLoginButton` can be added to your layout. This is
-a custom `Button` implementation that has the standard Connect button look-and-feel.
+To let the SDK handle CONNECT ID login, a `ConnectLoginButton` can be added to your layout. This is
+a custom `Button` implementation that has the standard CONNECT button look-and-feel.
 
 Firstly add a button to your layout XML files using the class name
 `com.telenor.connect.ConnectLoginButton`:
@@ -120,7 +120,7 @@ Where `R.layout.custom_loading_screen` can be any custom layout (.xml) file you 
 
 ## Keeping track of the login state
 
-The Connect SDK contains the `ConnectTokensStateTracker` class that tracks the login
+The CONNECT SDK contains the `ConnectTokensStateTracker` class that tracks the login
 state of the user. This is useful for handling UI changes in your app based on the login state of the user.
 
 ```java
