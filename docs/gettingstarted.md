@@ -5,7 +5,7 @@ lunr: true
 nav_sort: 1
 nav_groups:
   - primary
-nav_subgroup: true
+nav_subgroup: false
 tags:
   - starting
   - setup
@@ -13,6 +13,6 @@ tags:
 
 The easiest way to integrate CONNECT ID with your app is to use the respective SDKs for Android and iOS.
 
-* [CONNECT Android SDK](gettingstarted/connect-android-sdk.md)
+* [How to integrate with Android SDK](integratewithandroidsdk.md)
 * [CONNECT iOS SDK](https://github.com/telenordigital/connect-ios-sdk)
 

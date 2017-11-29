@@ -1,0 +1,33 @@
+---
+title: How to integrate with Android SDK
+description: Detailed information on using the CONNECT Android SDK for integration.
+lunr: true
+nav_sort: 1
+nav_groups:
+  - primary
+nav_subgroup: true
+tags:
+  - sdk
+  - android
+  - guide
+---
+
+GitHub: [github.com/telenordigital/connect-android-sdk](https://github.com/telenordigital/connect-android-sdk)
+
+## Requirements
+
+Before being able to use Telenor Connect in your application, you first need to
+[get your application registered](http://docs.telenordigital.com/getting-started/)
+with Telenor Connect.
+
+## Example app
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/AGTQotVzeD4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+For a full example, which includes both the setup in `AndroidManifest.xml` and sign in, see the [`connect-id-example` app](https://github.com/telenordigital/connect-android-sdk/tree/master/connect-id-example).
+
+Run it by following these steps:
+
+1. `git clone git@github.com:telenordigital/connect-android-sdk.git`
+2. Open `connect-android-sdk` in Android Studio.
+3. Select `id-example` Run Configuration and and run it (ctrl+r)
