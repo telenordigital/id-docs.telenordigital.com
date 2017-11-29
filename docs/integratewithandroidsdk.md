@@ -16,9 +16,9 @@ GitHub: [github.com/telenordigital/connect-android-sdk](https://github.com/telen
 
 ## Requirements
 
-Before being able to use Telenor Connect in your application, you first need to
+Before being able to use CONNECT ID in your application, you first need to
 [get your application registered](http://docs.telenordigital.com/getting-started/)
-with Telenor Connect.
+with CONNECT ID.
 
 ## Example app
 
