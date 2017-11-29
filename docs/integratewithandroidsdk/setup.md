@@ -36,7 +36,7 @@ Before using the SDK some entries have to be added to `AndroidManifest.xml`. The
 
 ## Set Staging or Production Environment
 
-Telenor Connect has 2 [environments](http://docs.telenordigital.com/connect/environments.html)
+CONNECT ID has 2 [environments](http://docs.telenordigital.com/connect/environments.html)
 that can be used, `staging` and `production`. The environment can be selected using the
 `com.telenor.connect.USE_STAGING` meta-data property in your AndroidManifest.xml
 
@@ -50,7 +50,7 @@ Set this to `false` if you want to use the production environment.
 
 ## Adding the client ID and redirect URI
 
-The Connect ID integration requires a client ID and a redirect URI to work. You should receive these when registering your application. See #requirements.
+The CONNECT ID integration requires a client ID and a redirect URI to work. You should receive these when registering your application. See #requirements.
 The client ID and redirect URI should be added to your `strings.xml` file. Add strings with the names `connect_client_id` and `connect_redirect_uri`.
 
 ```xml
