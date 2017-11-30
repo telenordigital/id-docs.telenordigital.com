@@ -15,7 +15,7 @@ tags:
   - authorizing
 ---
 
-You can authenticate the user and authorize your application by using a `ConnectLoginButton`:
+You can authenticate the user and authorize your application by using a [`ConnectLoginButton`](http://localhost:8888/integrate-androidsdk/advancedusage.html#add-a-connectloginbutton):
 
 
 ```java
