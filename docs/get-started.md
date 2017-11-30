@@ -5,7 +5,7 @@ lunr: true
 nav_sort: 1
 nav_groups:
   - primary
-nav_subgroup: false
+nav_subgroup: true
 tags:
   - starting
   - setup
