@@ -1,5 +1,5 @@
 ---
-title: Authentication and authorization
+title: Authentication & authorization
 description: CONNECT ID authentication and authorization API reference
 lunr: true
 nav_sort: 1

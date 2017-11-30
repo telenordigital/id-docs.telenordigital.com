@@ -1,5 +1,5 @@
 ---
-title: Get Started
+title: Get started
 description: The getting started page guides you through the different ways of integrating with CONNECT ID.
 lunr: true
 nav_sort: 1
