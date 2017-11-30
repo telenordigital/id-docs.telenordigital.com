@@ -13,6 +13,6 @@ tags:
 
 The easiest way to integrate CONNECT ID with your app is to use the respective SDKs for Android and iOS.
 
-* [How to integrate with Android SDK](integratewithandroidsdk.md)
-* [CONNECT iOS SDK](https://github.com/telenordigital/connect-ios-sdk)
+* How to do [Android SDK integration](integrate-androidsdk.md)
+* [github.com/telenordigital/connect-ios-sdk](https://github.com/telenordigital/connect-ios-sdk) (external)
 
