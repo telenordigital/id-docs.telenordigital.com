@@ -14,7 +14,7 @@ tags:
   - usage
 ---
 
-## Adding a ConnectLoginButton
+## Add a ConnectLoginButton
 
 To let the SDK handle CONNECT ID login, a `ConnectLoginButton` can be added to your layout. This is
 a custom `Button` implementation that has the standard CONNECT button look-and-feel.

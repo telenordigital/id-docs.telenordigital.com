@@ -23,7 +23,7 @@ dependencies {
 }
 ```
 
-You might have to add JCenter as a repository on your top-level `build.gradle` file if this isn't done already:
+You may have to add JCenter as a repository on your top-level `build.gradle` file if this isn't done already:
 ```gradle
 allprojects {
     repositories {
@@ -36,7 +36,7 @@ Before using the SDK some entries have to be added to `AndroidManifest.xml`. The
 
 ## Set Staging or Production Environment
 
-CONNECT ID has 2 [environments](http://docs.telenordigital.com/connect/environments.html)
+CONNECT ID has two [environments](http://docs.telenordigital.com/connect/environments.html)
 that can be used, `staging` and `production`. The environment can be selected using the
 `com.telenor.connect.USE_STAGING` meta-data property in your AndroidManifest.xml
 
@@ -48,7 +48,7 @@ that can be used, `staging` and `production`. The environment can be selected us
 
 Set this to `false` if you want to use the production environment.
 
-## Adding the client ID and redirect URI
+## Add client ID and redirect URI
 
 The CONNECT ID integration requires a client ID and a redirect URI to work. You should receive these when registering your application. See #requirements.
 The client ID and redirect URI should be added to your `strings.xml` file. Add strings with the names `connect_client_id` and `connect_redirect_uri`.
@@ -73,10 +73,10 @@ Add `meta-data` entries to the `application` section of the manifest.
 </application>
 ```
 
-## Registering and handling the redirect URI
+## Register and handle redirect URI
 
 
-### Registering the redirect URI in Android
+### Register redirect URI in Android
 **Note**: If you do not wish to use the Chrome Custom Tabs feature do not add this to the manifest.
 
 For your app to respond to calls to the redirect URI you need to add an `intent-filter` to your
@@ -95,7 +95,7 @@ For your app to respond to calls to the redirect URI you need to add an `intent-
 </activity>
 ```
 
-### Handling the redirect URI
+### Handle redirect URI
 
 You need an `Activity` that calls `ConnectSdk.handleRedirectUriCallIfPresent`, as in the [authenticating example above](#authenticating-a-user-and-authorizing-app).
 
@@ -104,7 +104,7 @@ If the app is not using the Chrome Custom Tab feature you only need to override 
 [authenticating example above](#authenticating-a-user-and-authorizing-app).
 
 
-## Adding permissions
+## Add permissions
 
 Open your application's `AndroidManifest.xml` file and add the permission required to allow your application to access the internet.
 

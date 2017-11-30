@@ -1,5 +1,5 @@
 ---
-title: Getting a valid access token
+title: Get a valid access token
 description: Detailed information on using the CONNECT Android SDK for integration.
 lunr: true
 nav_sort: 3

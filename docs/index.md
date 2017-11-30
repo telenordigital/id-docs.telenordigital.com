@@ -1,6 +1,6 @@
 ---
 title: CONNECT ID
-description: Documentation centre for CONNECT ID.
+description: Documentation center for CONNECT ID.
 lunr: true
 nav_sort: 0
 index: true

@@ -1,5 +1,5 @@
 ---
-title: Authenticating a user and authorizing app
+title: Authenticate a user and authorize app
 description: Detailed information on using the CONNECT Android SDK for integration.
 lunr: true
 nav_sort: 2

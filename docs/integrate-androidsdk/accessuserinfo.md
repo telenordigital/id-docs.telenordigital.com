@@ -19,7 +19,7 @@ The SDK allows for two ways of accessing user information. Either by requesting 
 
 Note: The presence of the fields depend on the **scope** and **claim** variables that were given at sign-in time. See http://docs.telenordigital.com/apis/connect/id/authentication.html for more details.
 
-### Accessing User Information by IdToken
+### Access User Information by IdToken
 
 When authenticating the user make sure to request the `openid` scope:
 
@@ -35,7 +35,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-When the user has authenticated you can call:
+When the user has authenticated you call:
 ```java
 IdToken idToken = ConnectSdk.getIdToken();
 ```
@@ -45,7 +45,7 @@ And access user information by calling for example:
 String email = idToken.getEmail();
 ```
 
-### Accessing User Information by getUserInfo(…)
+### Access User Information by getUserInfo(…)
 
 You can also access user information by making a network call using `getUserInfo(…)`:
 
