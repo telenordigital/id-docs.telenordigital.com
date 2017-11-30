@@ -1,5 +1,5 @@
 ---
-title: Access User Information
+title: Access user information
 description: Detailed information on using the CONNECT Android SDK for integration.
 lunr: true
 nav_sort: 4
