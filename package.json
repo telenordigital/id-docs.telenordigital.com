@@ -1,7 +1,7 @@
 {
-  "name": "id-docs.telenordigital.com",
+  "name": "docs-scaffold",
   "version": "0.1.0",
-  "description": "Documentation for CONNECT ID APIs and SDKs",
+  "description": "Scaffold repo which documentations can fork from",
   "main": "index.js",
   "scripts": {
     "build:style": "node lib/build-style.js",
@@ -23,16 +23,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/telenordigital/id-docs.telenordigital.com.git"
+    "url": "git+https://github.com/TelenorFrontend/docs-scaffold.git"
   },
   "author": "frontend@telenordigital.com",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/telenordigital/id-docs.telenordigital.com/issues"
+    "url": "https://github.com/TelenorFrontend/docs-scaffold/issues"
   },
-  "homepage": "https://github.com/telenordigital/id-docs.telenordigital.com#readme",
+  "homepage": "https://github.com/TelenorFrontend/docs-scaffold#readme",
   "devDependencies": {
-    "@telenorfrontend/tn-conventions": "^0.4.0",
+    "@telenorfrontend/tn-conventions": "^0.5.0",
     "babel-eslint": "^7.2.3",
     "chai": "^4.1.2",
     "eslint": "^4.2.0",
