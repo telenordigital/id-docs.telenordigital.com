@@ -11,6 +11,9 @@ tags:
   - guide
   - basic
   - usage
+  - access
+  - refresh
+  - token
 ---
 
 Once the user is signed in you can get a valid Access Token by calling `ConnectSdk.getValidAccessToken(…)`:

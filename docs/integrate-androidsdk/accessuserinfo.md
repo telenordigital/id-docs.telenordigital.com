@@ -11,15 +11,34 @@ tags:
   - guide
   - basic
   - usage
-  - userinfo
+  - user
+  - user information
+  - claims
+  - scope
+  - email
+  - phone
 ---
 
+## Add claims
 
 The SDK allows for two ways of accessing user information. Either by requesting and accessing an `IdToken` or by making a network call using `getUserInfo(…)`.
 
-Note: The presence of the fields depend on the **scope** and **claim** variables that were given at sign-in time. See http://docs.telenordigital.com/apis/connect/id/authentication.html for more details.
+The presence of the fields depend on the **scope** and **claim** variables that were given at sign-in time. Set the **scope** to access these fields and set the **claims** to make sure that the user has something in these fields. See http://docs.telenordigital.com/apis/connect/id/authentication.html for more details.
 
-### Access User Information by IdToken
+To set claims use the `setClaims` method on the `ConnectLoginButton`.
+
+```java
+@Override
+public void onCreate(Bundle savedInstanceState) {
+    // ...
+    ConnectLoginButton button = (ConnectLoginButton) findViewById(R.id.login_button);
+    button.setLoginScopeTokens("profile");
+    button.setClaims(new Claims(Claims.PHONE_NUMBER, Claims.EMAIL));
+}
+```
+
+
+## Access User Information by IdToken
 
 When authenticating the user make sure to request the `openid` scope:
 
@@ -45,7 +64,7 @@ And access user information by calling for example:
 String email = idToken.getEmail();
 ```
 
-### Access User Information by getUserInfo(…)
+## Access User Information by getUserInfo(…)
 
 You can also access user information by making a network call using `getUserInfo(…)`:
 
