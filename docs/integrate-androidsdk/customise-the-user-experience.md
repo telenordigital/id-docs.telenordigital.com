@@ -22,7 +22,7 @@ tags:
 
 CONNECT ID will guess the language and set the appropriate locale for the user.
 
-To explicitly set the locale the user sees in the flows, add the `ui_locales` parameter and set this in addLoginParameters.
+To explicitly set the locale the user sees in the flows, add the `ui_locales` parameter and set this with `addLoginParameters(...)`.
 
 ```java
 @Override
@@ -53,5 +53,5 @@ protected void onCreate(Bundle savedInstanceState) {
 
 Where `R.layout.custom_loading_screen` can be any custom layout (.xml) file you have created.
 
-Note, this is only relevant if the Chrome Custom Tab feature is deactived.
+Note, the custom loading screen is only used when *Chrome Custom Tabs* feature is **deactived**.
 
