@@ -17,11 +17,11 @@ tags:
 
 value | Description | Endpoint
  ---------- | ----------- | -------
-openid      | Requesting this scope value results in an ID token being returned when exchanging your authorization code for an access/refresh token pair. | [POST /oauth/token](/apis/connect/id/authentication.html#authorization-server-token-post)
-profile     | Basic user information. Claims: __name__ and __locale__. Additional claims are not supported yet. | [GET /oauth/userinfo](/apis/connect/id/authentication.html#authorization-server-user-information)
-email       | The user's preferred email address. Claims: __email__ and __email_verified__. | [GET /oauth/userinfo](/apis/connect/id/authentication.html#authorization-server-user-information)
-address     | The user's known postal address. Claims: __address__. Not supported yet. | [GET /oauth/userinfo](/apis/connect/id/authentication.html#authorization-server-user-information)
-phone       | The user's preferred phone number. Claims: __phone_number__ and __phone_number_verified__. | [GET /oauth/userinfo](/apis/connect/id/authentication.html#authorization-server-user-information)
+openid      | Requesting this scope value results in an ID token being returned when exchanging your authorization code for an access/refresh token pair. | [POST /oauth/token](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-token-post)
+profile     | Basic user information. Claims: __name__ and __locale__. Additional claims are not supported yet. | [GET /oauth/userinfo](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-information)
+email       | The user's preferred email address. Claims: __email__ and __email_verified__. | [GET /oauth/userinfo](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-information)
+address     | The user's known postal address. Claims: __address__. Not supported yet. | [GET /oauth/userinfo](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-information)
+phone       | The user's preferred phone number. Claims: __phone_number__ and __phone_number_verified__. | [GET /oauth/userinfo](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-information)
 
 ## ID token
 
@@ -59,7 +59,7 @@ phone       | The user's preferred phone number. Claims: __phone_number__ and __
             the browser session for web clients.
             This claim is relevant for clients that have opted in to having
             a "stay logged in" option for their users on login.
-            See the description of the [single sign-on (SSO)](sso.html) functionality for details.
+            See the description of the [single sign-on (SSO)](http://docs.telenordigital.com/connect/id/sso.html) functionality for details.
         </td>
     </tr>
     <tr>
