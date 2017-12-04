@@ -23,7 +23,7 @@ tags:
 
 The SDK allows for two ways of accessing user information. Either by requesting and accessing an `IdToken` or by making a network call using `getUserInfo(…)`.
 
-The presence of the fields depend on the **scope** and **claim** variables that were given at sign-in time. Set the **scope** to access these fields and set the **claims** to make sure that the user has something in these fields. See http://docs.telenordigital.com/apis/connect/id/authentication.html for more details.
+The presence of the fields depend on the **scope** and **claim** variables that were given at sign-in time. Set the **scope** to access these fields and set the **claims** to make sure that the user has something in these fields. See [docs.telenordigital.com/apis/connect/id/authentication.html](http://docs.telenordigital.com/apis/connect/id/authentication.html) for more details.
 
 To set claims use the `setClaims` method on the `ConnectLoginButton`.
 

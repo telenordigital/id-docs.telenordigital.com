@@ -28,6 +28,6 @@ For a full example, which includes both the setup in `AndroidManifest.xml` and s
 
 Run it by following these steps:
 
-1. `git clone git@github.com:telenordigital/connect-android-sdk.git`
-2. Open `connect-android-sdk` in Android Studio.
-3. Select `id-example` Run Configuration and and run it (ctrl+r)
+1.  `git clone git@github.com:telenordigital/connect-android-sdk.git`
+2.  Open `connect-android-sdk` in Android Studio.
+3.  Select `id-example` Run Configuration and and run it (ctrl+r)
