@@ -1,6 +1,8 @@
 ---
 title: Get a valid access token
 description: Detailed information on using the CONNECT Android SDK for integration.
+collection: integrate-androidsdk
+order: 3
 lunr: true
 nav_sort: 3
 nav_groups:

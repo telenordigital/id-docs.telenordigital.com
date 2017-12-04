@@ -1,6 +1,8 @@
 ---
 title: Android SDK integration
 description: Detailed information on using the CONNECT Android SDK for integration.
+collection: integrate-androidsdk
+order: 0
 lunr: true
 nav_sort: 1
 nav_groups:

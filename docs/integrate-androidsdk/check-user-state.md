@@ -1,6 +1,8 @@
 ---
 title: Check user state
 description: Detailed information on using the CONNECT Android SDK for integration.
+collection: integrate-androidsdk
+order: 5
 lunr: true
 nav_sort: 4
 nav_groups:

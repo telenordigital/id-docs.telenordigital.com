@@ -1,6 +1,8 @@
 ---
 title: Customise the user experience
 description: Detailed information on using the CONNECT Android SDK for integration.
+collection: integrate-androidsdk
+order: 6
 lunr: true
 nav_sort: 5
 nav_groups:
