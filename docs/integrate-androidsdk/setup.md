@@ -99,11 +99,11 @@ For your app to respond to calls to the redirect URI you need to add an `intent-
 
 ### Handle redirect URI
 
-You need an `Activity` that calls `ConnectSdk.handleRedirectUriCallIfPresent`, as in the [authenticating example above](#authenticating-a-user-and-authorizing-app).
+You need an `Activity` that calls `ConnectSdk.handleRedirectUriCallIfPresent`, as in the [sign in example](./signinuser.md).
 
 If the app is not using the Chrome Custom Tab feature you only need to override the
 `onActivityResult(…)`, also as in the
-[authenticating example above](#authenticating-a-user-and-authorizing-app).
+[sign in example](./signinuser.md).
 
 
 ## Add permissions
