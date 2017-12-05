@@ -12,6 +12,9 @@ tags:
 
 CONNECT ID is the component of CONNECT dealing with identity management. The main part of CONNECT ID is an authorization server which will handle user signup and login (authentication) for you. In addition to being authenticated, the end user gets the chance to authorize that you get access to his protected resources, like e.g. email address, phone number, and payment functionality. CONNECT ID also supplies APIs to get and manage user data.
 
-See [portal.telenordigital.com/products/connect-id](https://portal.telenordigital.com/products/connect-id).
-
-<img src="https://portal.telenordigital.com/upload/_banner/Connect-1.png">
+<figure>
+	<img src="https://portal.telenordigital.com/upload/_banner/Connect-1.png">
+	<figcaption>
+		<a href="https://portal.telenordigital.com/products/connect-id" target="_blank">portal.telenordigital.com/products/connect-id</a><i class="material-icons md-18">open_in_new</i>
+	</figcaption>
+</figure>
