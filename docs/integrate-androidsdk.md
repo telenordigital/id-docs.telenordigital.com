@@ -4,7 +4,7 @@ description: Detailed information on using the CONNECT Android SDK for integrati
 collection: integrate-androidsdk
 order: 0
 lunr: true
-nav_sort: 1
+nav_sort: 2
 nav_groups:
   - primary
 nav_subgroup: true
@@ -18,8 +18,7 @@ GitHub: [github.com/telenordigital/connect-android-sdk](https://github.com/telen
 
 ## Requirements
 
-Before being able to use CONNECT ID in your application, you first need to
-[register a client](./register-client.md).
+Before being able to use CONNECT ID in your application, you first need to [register a client](./get-started/register-client.md).
 
 ## Example app
 

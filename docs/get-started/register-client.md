@@ -5,7 +5,7 @@ lunr: true
 nav_sort: 1
 nav_groups:
   - primary
-nav_subgroup: true
+nav_subgroup: false
 tags:
   - client
   - register
