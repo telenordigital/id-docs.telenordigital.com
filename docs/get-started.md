@@ -20,7 +20,7 @@ The easiest way to integrate CONNECT ID with your app is to use the respective S
 
 
 ### Android <i class="material-icons">android</i>
-How to do [Android SDK integration](integrate-androidsdk.md)
+How to do [Android SDK integration](integrate-android-sdk.md)
 
 
 ### iOS 
