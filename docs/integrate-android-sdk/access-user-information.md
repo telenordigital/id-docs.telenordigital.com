@@ -1,7 +1,7 @@
 ---
 title: Access user information
 description: Detailed information on using the CONNECT Android SDK for integration.
-collection: integrate-androidsdk
+collection: integrate-android-sdk
 order: 4
 lunr: true
 nav_sort: 4

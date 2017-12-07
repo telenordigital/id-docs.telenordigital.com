@@ -1,7 +1,7 @@
 ---
 title: Sign in user
 description: Detailed information on using the CONNECT Android SDK for integration.
-collection: integrate-androidsdk
+collection: integrate-android-sdk
 order: 2
 lunr: true
 nav_sort: 2
