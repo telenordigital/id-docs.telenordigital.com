@@ -18,3 +18,6 @@ CONNECT ID is the component of CONNECT dealing with identity management. The mai
 		<a href="https://portal.telenordigital.com/products/connect-id" target="_blank">portal.telenordigital.com/products/connect-id</a><i class="material-icons md-18">open_in_new</i>
 	</figcaption>
 </figure>
+
+## BETA
+Note, the new documentation is work in progress and not all content has been moved over yet. The old docs can still be found at [docs.telenordigital.com](http://docs.telenordigital.com/).
