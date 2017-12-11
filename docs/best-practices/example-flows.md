@@ -9,17 +9,6 @@ tags: example flows
 
 ## Sign in with mobile phone authentication
 
-<<<<<<< Updated upstream
-![Sign in with mobile phone authentication](/img/sign-in-with-mobile-auth.png)
-
-## Accessing a password secured area
-
-![Accessing a password secure area](/img/access-my-connect.png)
-
-## Accessing My CONNECT account
-
-![Accessing My CONNECT account](/img/access-my-connect.png)
-=======
 ![Sign in with mobile phone authentication](../img/sign-in-with-mobile-auth.png)
 
 ## Accessing a password secured area
@@ -29,4 +18,3 @@ tags: example flows
 ## Accessing My CONNECT account
 
 ![Accessing My CONNECT account](../img/access-my-connect.png)
->>>>>>> Stashed changes
