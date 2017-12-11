@@ -1,7 +1,7 @@
 ---
 title: API Reference
 lunr: true
-nav_sort: 3
+nav_sort: 4
 nav_groups:
   - primary
 nav_category: true
