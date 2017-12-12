@@ -7,6 +7,8 @@ nav_groups:
 tags: example flows
 ---
 
+These are a few examples of how CONNECT ID should be used with your account.
+
 ## Sign in with mobile phone authentication
 
 ![Sign in with mobile phone authentication](../img/sign-in-with-mobile-auth.png)
