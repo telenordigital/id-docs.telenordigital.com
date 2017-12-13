@@ -1,6 +1,6 @@
 ---
 title: Best practices
-lunr: true
+lunr: false
 nav_sort: 3
 nav_groups:
   - primary

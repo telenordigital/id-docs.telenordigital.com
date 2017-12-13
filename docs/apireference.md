@@ -1,6 +1,6 @@
 ---
 title: API Reference
-lunr: true
+lunr: false
 nav_sort: 4
 nav_groups:
   - primary
