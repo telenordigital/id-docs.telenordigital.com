@@ -1,5 +1,6 @@
 ---
 title: OAuth 2 & OpenID Connect
+description: An introduction to the concepts of OAuth 2 & OpenID Connect.
 lunr: true
 nav_sort: 2
 nav_groups:
