@@ -1,10 +1,12 @@
 import { initSearch, hideSearchField, hideSearchResults } from "./search";
 import { initSidebar, closeSidebar, setActiveLink } from "./sidebar";
+import { initGoogleAnalytics } from "./google-analytics";
 
 document.addEventListener("DOMContentLoaded", function(event) {
     initBarba();
     initSearch();
     initSidebar();
+    initGoogleAnalytics();
     setActiveLink();
 });
 
@@ -13,6 +15,7 @@ function initBarba() {
     Barba.Prefetch.init();
     Barba.Dispatcher.on("newPageReady", function(currentStatus, oldStatus, container) {
         setActiveLink();
+        initGoogleAnalytics();
         delete window.pageReady;
         hideSearchResults();
         hideSearchField();
