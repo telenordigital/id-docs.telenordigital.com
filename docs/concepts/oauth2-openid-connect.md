@@ -21,3 +21,5 @@ CONNECT ID is an OAuth 2 and OpenID Connect provider. The videos below explain w
 <br/>
 <br/>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/6DxRTJN1Ffo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+A more detailed explanation can be found at [docs.telenordigital.com/connect/id/authentication.html](http://docs.telenordigital.com/connect/id/authentication.html)

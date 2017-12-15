@@ -27,5 +27,5 @@ How to do [Android SDK integration](integrate-android-sdk.md)
 iOS GitHub page: <a href="https://github.com/telenordigital/connect-ios-sdk" target="_blank">github.com/telenordigital/connect-ios-sdk</a><i class="material-icons md-18">open_in_new</i>
 
 
-## Basics of OAuth 2 & OpenID Connect
-CONNECT ID is an OAuth 2 and OpenID Connect provider. See [OAuth 2 and OpenID Connect](./explanation/oauth2-openid-connect.md) for an introduction.
+## Concepts of OAuth 2 & OpenID Connect
+CONNECT ID is an OAuth 2 and OpenID Connect provider. See [OAuth 2 and OpenID Connect](./concepts/oauth2-openid-connect.md) for an introduction.
