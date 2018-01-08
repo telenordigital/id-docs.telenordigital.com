@@ -13,7 +13,7 @@ This is a selection of terms to use on the service side for communication relate
 
 -   Sign in/Sign out
     CONNECT is a single entry point solution where the user does not need to remember if they have an account (“Should I click login or register?”)
--   Signed in as `<phone number/email>`
+-   Signed in as (phone number/email)
     Use “signed in” as a way of telling the user what account he/she is using to connect.
 -   Manage account / Manage CONNECT account
     Research shows that “manage account” is self explanatory for most users. The term account is also used when you “Sign in with your CONNECT account”. “Manage” is also a term that implies a form of action.
