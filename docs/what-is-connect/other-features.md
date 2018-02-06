@@ -1,0 +1,99 @@
+---
+title: Other CONNECT features
+description: Features of CONNECT
+lunr: true
+nav_sort: 5
+nav_groups:
+  - primary
+nav_subgroup: false
+tags:
+  - features
+---
+### **Branding and localisation capabilities**
+
+
+- Customise your header by providing logo and header colour
+- Set a short message on the first screen of our flows
+- Available in 14 languages:
+  - Bengali
+  - Bulgarian
+  - Burmese
+  - Chinese Simplified
+  - Danish
+  - English
+  - Indonesian
+  - Malay
+  - Montenegrin (Latin)
+  - Norwegian Bokmal
+  - Serbian (Latin)
+  - Swedish
+  - Thai
+  - Urdu (Pakistan)
+![](https://lh3.googleusercontent.com/_Py2VJls2m9dqwRArtw3caTl88O_ql-lZcNdRhGob-aXtVBwS0CDO6avZtkkD-CtML8fJYADsWmE0sAjQdoFxotNSGWPYdOhSae0iuzDPSJIaGY4aqfPzIjQxYMzQVMGWph1T38-mw7qiJ63pw)
+
+
+### **Customising the sign in page**
+
+
+- Allow user to enter phone and e-mail, only phone or only e-mail.
+
+[Mockup]
+
+
+- Show phone or e-mail field first.
+
+[Mockup]
+
+
+- Pre-fill phone and/or e-mail.
+
+### **Customising the ways users sign in**
+
+
+- Force the user to sign in with a specific phone or e-mail
+
+[Mockup]
+
+
+- Require the user to provide an e-mail address in addition to the phone
+
+[Mockup]
+
+
+- Force or disallow phone verification through SMS PIN roundtrip
+
+### **Customising Sessions**
+
+
+- “Stay signed in” Show and set default value
+
+[Mockup]
+
+
+- Re-authentication
+
+[Mockup]
+
+### **Easy Integration via Android and iOS SDKs**
+
+[Mockup]
+
+
+- Prevent automatic detection of phone numbers on mobile hotspots (Android)
+- Automatic detection of phone number when device is both on WiFi and mobile data (Android, webview only)
+- Automatic PIN code reading (Android, webview only)
+
+### **One entry point**
+
+
+- CONNECT is a single entry point solution where the user does not need to remember if they have an account (“Should I click login or register?”)
+
+### **Security features**
+
+
+- Password minimum character length: 6
+- Password strength indicator
+- Blocking common passwords
+- Rate limiting on password
+- Rate limiting on SMS
+- Notification on password change
