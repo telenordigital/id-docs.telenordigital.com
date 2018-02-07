@@ -1,6 +1,8 @@
 ---
 title: Other CONNECT features
 description: Features of CONNECT
+collection: connect-features
+order: 5
 lunr: true
 nav_sort: 5
 nav_groups:
@@ -29,7 +31,7 @@ tags:
   - Swedish
   - Thai
   - Urdu (Pakistan)
-![](https://lh3.googleusercontent.com/_Py2VJls2m9dqwRArtw3caTl88O_ql-lZcNdRhGob-aXtVBwS0CDO6avZtkkD-CtML8fJYADsWmE0sAjQdoFxotNSGWPYdOhSae0iuzDPSJIaGY4aqfPzIjQxYMzQVMGWph1T38-mw7qiJ63pw)
+(placeholder-image)
 
 
 ### **Customising the sign in page**
@@ -37,12 +39,12 @@ tags:
 
 - Allow user to enter phone and e-mail, only phone or only e-mail.
 
-[Mockup]
+(placeholder-image)
 
 
 - Show phone or e-mail field first.
 
-[Mockup]
+(placeholder-image)
 
 
 - Pre-fill phone and/or e-mail.
@@ -52,12 +54,12 @@ tags:
 
 - Force the user to sign in with a specific phone or e-mail
 
-[Mockup]
+(placeholder-image)
 
 
 - Require the user to provide an e-mail address in addition to the phone
 
-[Mockup]
+(placeholder-image)
 
 
 - Force or disallow phone verification through SMS PIN roundtrip
@@ -67,16 +69,16 @@ tags:
 
 - “Stay signed in” Show and set default value
 
-[Mockup]
+(placeholder-image)
 
 
 - Re-authentication
 
-[Mockup]
+(placeholder-image)
 
 ### **Easy Integration via Android and iOS SDKs**
 
-[Mockup]
+(placeholder-image)
 
 
 - Prevent automatic detection of phone numbers on mobile hotspots (Android)

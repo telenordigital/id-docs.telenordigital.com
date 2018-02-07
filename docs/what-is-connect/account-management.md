@@ -1,6 +1,8 @@
 ---
 title: Account management
 description: Features of CONNECT
+collection: connect-features
+order: 4
 lunr: true
 nav_sort: 4
 nav_groups:

@@ -1,6 +1,8 @@
 ---
 title: Integration details for sign in flows
 description: General recommendations
+collection: general-recommendations
+order: 1
 lunr: true
 nav_sort: 1
 nav_groups:

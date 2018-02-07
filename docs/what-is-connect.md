@@ -1,6 +1,8 @@
 ---
 title: What is CONNECT?
 description: An explanation of CONNECT?
+collection: connect-features
+order: 0
 lunr: true
 nav_sort: 21
 nav_groups:

@@ -1,6 +1,8 @@
 ---
 title: Session handling
 description: General recommendations
+collection: general-recommendations
+order: 2
 lunr: true
 nav_sort: 2
 nav_groups:

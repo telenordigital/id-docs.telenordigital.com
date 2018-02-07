@@ -1,6 +1,8 @@
 ---
 title: UI examples
 description: Features of CONNECT
+collection: connect-features
+order: 6
 lunr: true
 nav_sort: 6
 nav_groups:

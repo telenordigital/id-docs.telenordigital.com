@@ -1,6 +1,8 @@
 ---
 title: Terminology/Glossary
 description: General recommendations
+collection: general-recommendations
+order: 3
 lunr: true
 nav_sort: 3
 nav_groups:

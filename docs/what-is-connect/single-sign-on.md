@@ -1,6 +1,8 @@
 ---
 title: Single sign on
 description: Features of CONNECT
+collection: connect-features
+order: 2
 lunr: true
 nav_sort: 2
 nav_groups:

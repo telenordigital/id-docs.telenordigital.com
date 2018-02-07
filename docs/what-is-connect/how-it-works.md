@@ -1,6 +1,8 @@
 ---
 title: How it works
 description: Features of CONNECT
+collection: connect-features
+order: 1
 lunr: true
 nav_sort: 1
 nav_groups:
