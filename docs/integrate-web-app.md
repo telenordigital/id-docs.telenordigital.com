@@ -3,7 +3,7 @@ title: Web application integration
 description: Detail information for web application integration.
 collection: integrate-web-app
 lunr: true
-nav_sort: 3
+nav_sort: 14
 nav_groups:
   - primary
 nav_subgroup: true

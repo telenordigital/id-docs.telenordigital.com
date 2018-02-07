@@ -2,7 +2,7 @@
 title: What is CONNECT?
 description: An explanation of CONNECT?
 lunr: true
-nav_sort: 3
+nav_sort: 21
 nav_groups:
   - primary
 nav_subgroup: true

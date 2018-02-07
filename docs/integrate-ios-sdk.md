@@ -3,7 +3,7 @@ title: iOS SDK integration
 description: Detailed information on using the CONNECT iOS SDK for integration.
 collection: integrate-ios-sdk
 lunr: true
-nav_sort: 3
+nav_sort: 13
 nav_groups:
   - primary
 nav_subgroup: true
