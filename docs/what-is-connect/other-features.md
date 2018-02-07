@@ -11,7 +11,7 @@ nav_subgroup: false
 tags:
   - features
 ---
-### **Branding and localisation capabilities**
+### Branding and localisation capabilities
 
 
 - Customise your header by providing logo and header colour
@@ -34,7 +34,7 @@ tags:
 (placeholder-image)
 
 
-### **Customising the sign in page**
+### Customising the sign in page
 
 
 - Allow user to enter phone and e-mail, only phone or only e-mail.
@@ -49,7 +49,7 @@ tags:
 
 - Pre-fill phone and/or e-mail.
 
-### **Customising the ways users sign in**
+### Customising the ways users sign in
 
 
 - Force the user to sign in with a specific phone or e-mail
@@ -64,7 +64,7 @@ tags:
 
 - Force or disallow phone verification through SMS PIN roundtrip
 
-### **Customising Sessions**
+### Customising Sessions
 
 
 - “Stay signed in” Show and set default value
@@ -76,7 +76,7 @@ tags:
 
 (placeholder-image)
 
-### **Easy Integration via Android and iOS SDKs**
+### Easy Integration via Android and iOS SDKs
 
 (placeholder-image)
 
@@ -85,12 +85,12 @@ tags:
 - Automatic detection of phone number when device is both on WiFi and mobile data (Android, webview only)
 - Automatic PIN code reading (Android, webview only)
 
-### **One entry point**
+### One entry point
 
 
 - CONNECT is a single entry point solution where the user does not need to remember if they have an account (“Should I click login or register?”)
 
-### **Security features**
+### Security features
 
 
 - Password minimum character length: 6
