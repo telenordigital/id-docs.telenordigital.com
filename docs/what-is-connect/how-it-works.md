@@ -2,15 +2,17 @@
 title: How it works
 description: Features of CONNECT
 collection: connect-features
-order: 1
+order: 0
 lunr: true
 nav_sort: 1
 nav_groups:
   - primary
-nav_subgroup: false
 tags:
   - features
 ---
+CONNECT is easy and secure authentication and payment solution developed for Telenor by Telenor Digital. It involves the process of **signing in** and **managing the account.**
+
+CONNECT is open to users of all services and stays relevant in user’s life even after they have churned from Telenor — non-Telenor subscribers also have the ability to register and use CONNECT.
 
 CONNECT is designed to be used in a browser or in-app browser tab in order to ensure:
   - Consistent user experience between services that use CONNECT

@@ -2,12 +2,11 @@
 title: Various security levels (Levels of assurance)
 description: Features of CONNECT
 collection: connect-features
-order: 3
+order: 2
 lunr: true
 nav_sort: 3
 nav_groups:
   - primary
-nav_subgroup: false
 tags:
   - features
 ---

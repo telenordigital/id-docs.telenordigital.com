@@ -2,12 +2,11 @@
 title: Single sign on
 description: Features of CONNECT
 collection: connect-features
-order: 2
+order: 1
 lunr: true
 nav_sort: 2
 nav_groups:
   - primary
-nav_subgroup: false
 tags:
   - features
 ---

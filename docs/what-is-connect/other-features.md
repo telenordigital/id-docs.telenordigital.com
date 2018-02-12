@@ -2,12 +2,11 @@
 title: Other CONNECT features
 description: Features of CONNECT
 collection: connect-features
-order: 5
+order: 4
 lunr: true
 nav_sort: 5
 nav_groups:
   - primary
-nav_subgroup: false
 tags:
   - features
 ---

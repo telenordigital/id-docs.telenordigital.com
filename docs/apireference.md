@@ -6,6 +6,4 @@ nav_groups:
   - primary
 nav_category: true
 tags:
-  - starting
-  - setup
 ---

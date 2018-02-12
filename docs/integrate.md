@@ -1,7 +1,7 @@
 ---
-title: What is CONNECT?
+title: Integrate
 lunr: false
-nav_sort: 10
+nav_sort: 20
 nav_groups:
   - primary
 nav_category: true

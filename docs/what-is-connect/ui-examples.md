@@ -2,12 +2,11 @@
 title: UI examples
 description: Features of CONNECT
 collection: connect-features
-order: 6
+order: 5
 lunr: true
 nav_sort: 6
 nav_groups:
   - primary
-nav_subgroup: false
 tags:
   - features
 ---

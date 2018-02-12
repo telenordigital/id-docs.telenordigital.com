@@ -1,5 +1,5 @@
 ---
-title: Integration details for sign in flows
+title: Integration details for handling sign in
 description: General recommendations
 collection: general-recommendations
 order: 1

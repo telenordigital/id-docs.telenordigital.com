@@ -3,7 +3,7 @@ title: General recommendations
 collection: general-recommendations
 order: 0
 lunr: false
-nav_sort: 22
+nav_sort: 12
 nav_groups:
   - primary
 nav_subgroup: true
