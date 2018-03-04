@@ -13,12 +13,12 @@ tags:
 My CONNECT account is used for all account administration purposes. Showing CONNECT account information within the service is possible, i.e. users can view CONNECT account information in the service. Editing of this information is done in My CONNECT account:
 
 
-- Change password
-- Edit phone numbers
-- Edit email addresses
-- Handling of Connected services
-- Link to overview screen / deep link to specific screen
-- Backlink
+-   Change password
+-   Edit phone numbers
+-   Edit email addresses
+-   Handling of Connected services
+-   Link to overview screen / deep link to specific screen
+-   Backlink
 
 We encourage the services to provide an option to the user of managing these settings. Here are suggestions on how and where to provide this link, depending on how much screen estate is available.
 

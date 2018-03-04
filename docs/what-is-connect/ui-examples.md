@@ -12,12 +12,12 @@ tags:
 ---
 Sign in with mobile phone authentication under different conditions.
 
-[Mockup]
+**Mockup**
 
 Accessing a password secured area
 
-[Mockup]
+**Mockup**
 
 Accessing My CONNECT account
 
-[Mockup]
+**Mockup**

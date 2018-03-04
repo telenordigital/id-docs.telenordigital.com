@@ -16,20 +16,20 @@ tags:
 **Entry point**
 
 
-- CONNECT sign in button
-  - 3 colour schemes (dark gray/light gray/blue)
-  - Localised language with clear call to action
-  - Assets available for Android, iOS and web (PNG, SVG, CSS)
+CONNECT sign in button
+-   3 colour schemes (dark gray/light gray/blue)
+-   Localised language with clear call to action
+-   Assets available for Android, iOS and web (PNG, SVG, CSS)
 
-[Mockup]
-
-
-- On startup
-
-[Mockup]
+Mockup
 
 
-- Link
+-   On startup
+
+Mockup
+
+
+-   Link
   To reauthenticate or to go from one security level to the next.
 
 **HTML flow integration**
@@ -39,53 +39,53 @@ The recommended way of integrating CONNECT in a native app is to use an “in-ap
 **In-app browser tab**
 
 
-- Single Sign On (SSO)
-- Autofilling of previously used phone number or email address
-- Use of Android/iOS/external password manager
+-   Single Sign On (SSO)
+-   Autofilling of previously used phone number or email address
+-   Use of Android/iOS/external password manager
 
-[Mockup] *Android - Chrome Custom Tabs*
+Mockup *Android - Chrome Custom Tabs*
 
-[Mockup] *iOS - Safari View Controller*
+Mockup *iOS - Safari View Controller*
 
 **Webview**
 
 
-- Automatic PIN code reading (Android, after user consent)
-- Automatic detection of phone number when device is both on WiFi and mobile data
+-   Automatic PIN code reading (Android, after user consent)
+-   Automatic detection of phone number when device is both on WiFi and mobile data
 
-[Mockup]
+Mockup
 
 **Browser app**
 
 **Entry point**
 
 
-- CONNECT sign in button
-  - 3 colour schemes (dark gray/light gray/blue)
-  - Localised language with clear call to action
-  - Assets available for Android, iOS and web (PNG, SVG, CSS)
+CONNECT sign in button
+-   3 colour schemes (dark gray/light gray/blue)
+-   Localised language with clear call to action
+-   Assets available for Android, iOS and web (PNG, SVG, CSS)
 
-[Mockup]
+Mockup
 
 
-- Link To reauthenticate or to go from one security level to the next.
+-   Link To reauthenticate or to go from one security level to the next.
 
 **Mobile**
 
 Redirect in same/new tab
 
-[Mockup]
+Mockup
 
 **Desktop**
 
 Pop-up in new tab
 
 
-- User stays in the context of your service by keeping the entry point in the background
-- Note: This is how Google and Facebook does it for 3rd parties
+-   User stays in the context of your service by keeping the entry point in the background
+-   Note: This is how Google and Facebook does it for 3rd parties
 
-[Mockup]
+Mockup
 
 Redirect in same tab
 
-[Mockup]
+Mockup

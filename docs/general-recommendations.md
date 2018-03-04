@@ -39,11 +39,11 @@ Lower security levels have a higher conversion rate (Telenor subscribers only). 
 Give the user the opportunity to see what email/phone they have signed in with. As this is clearly related to “Sign in”, options to “Switch user”, “Manage CONNECT account” or to “Sign out” can be shown in this context. As an icon we suggest a person/cogwheel combined. Avoid using the cogwheel alone, as this is usually used for the app settings.
 
 Image
-<-![Show link only - small]()
+image:Show link only - small
 
 
 **Separate My CONNECT account-specific settings from App-specific settings**
 Make sure the user can easily differentiate between the settings in your app (e.g. turn off notifications, enable mobile data upload) from the My CONNECT account settings (e.g. change password, edit permissions, see connected services).
 
 Image
->-![Show link only - small]()
+image:Show link only - small
