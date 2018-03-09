@@ -107,7 +107,7 @@ the technology used in the client:
 
 -   Native Android/iOS/Windows Phone/Mac OS X clients: `<client-id>://connect/oauth2callback` (May be
 used in production)
--   Web clients: `http://localhost:8081/connect/oauth2callback` (Please note that this is just for
+-   Web clients: `http://<i></i>localhost:8081/connect/oauth2callback` (Please note that this is just for
 testing. In production, a non-localhost redirect URI with HTTPS scheme should be used)
 -   Windows desktop clients: `urn:ietf:wg:oauth:2.0:oob` and `urn:ietf:wg:oauth:2.0:oob:auto` (May be
 used in production)
