@@ -22,10 +22,12 @@ My CONNECT account is used for all account administration purposes. Showing CONN
 
 We encourage the services to provide an option to the user of managing these settings. Here are suggestions on how and where to provide this link, depending on how much screen estate is available.
 
+*placeholder-image*
 *Show link only - small*
 
 Using “Signed in with ” in combination with “Manage (CONNECT) account” has been proven to help users understand that CONNECT is related to the sign in. It also helps to differentiate between your app or other account settings.
 
+*placeholder-image*
 *Show account data with link - large*
 
 With this option it is possible to show additional data from My CONNECT account (e.g. phone numbers, email addresses, password) and link directly to the screens where this data can be modified.

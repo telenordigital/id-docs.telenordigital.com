@@ -52,7 +52,8 @@ SSO - Scenario 1
 (placeholder-image)
 
 *First service on device (SSO session created)*
-(placeholder-image)
+
+*placeholder-image*
 
 *Follow up services on same device (SSO session used)*
 SSO - Scenario 2
@@ -66,7 +67,7 @@ SSO - Scenario 2
 
 *First service on device (SSO session created)*
 
-(placeholder-image)
+*placeholder-image*
 
  *Follow up services on same device (SSO session used)*
 Re-authentication
@@ -76,10 +77,10 @@ Re-authentication
 -   Follow up on Wifi or mobile data
 -   SSO session not older than a specific age, set by follow up service
 -   Existing CONNECT user
-(placeholder-image)
+*placeholder-image*
 
  *First service on device (SSO session created)*
 
-(placeholder-image)
+ *placeholder-image*
 
  *Follow up services on same device (SSO session used)*

@@ -38,12 +38,12 @@ tags:
 
 -   Allow user to enter phone and e-mail, only phone or only e-mail.
 
-(placeholder-image)
+*placeholder-image*
 
 
 -   Show phone or e-mail field first.
 
-(placeholder-image)
+*placeholder-image*
 
 
 -   Pre-fill phone and/or e-mail.
@@ -53,12 +53,12 @@ tags:
 
 -   Force the user to sign in with a specific phone or e-mail
 
-(placeholder-image)
+*placeholder-image*
 
 
 -   Require the user to provide an e-mail address in addition to the phone
 
-(placeholder-image)
+*placeholder-image*
 
 
 -   Force or disallow phone verification through SMS PIN roundtrip
@@ -68,16 +68,16 @@ tags:
 
 -   “Stay signed in” Show and set default value
 
-(placeholder-image)
+*placeholder-image*
 
 
 -   Re-authentication
 
-(placeholder-image)
+*placeholder-image*
 
 ### Easy Integration via Android and iOS SDKs
 
-(placeholder-image)
+*placeholder-image*
 
 
 -   Prevent automatic detection of phone numbers on mobile hotspots (Android)
