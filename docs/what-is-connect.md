@@ -1,7 +1,7 @@
 ---
-title: API Reference
+title: What is CONNECT?
 lunr: false
-nav_sort: 40
+nav_sort: 10
 nav_groups:
   - primary
 nav_category: true
