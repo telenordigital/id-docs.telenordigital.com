@@ -185,12 +185,12 @@ a given value.
 This can be achieved by checking the 'auth_time' claim in the ID token in the session.
 The client may also force an authentication rather than automatic login through SSO by using
 the 'max_age' parameter in the
-[authorization request](http://docs.telenordigital.com//apis/connect/id/authentication.html#authorization-server-user-authorization).
+[authorization request](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-authorization).
 
 Note that on LoA 1, the user might get automatic authentication through header enrichment.
 To control this, e.g. turn off header enrichment for certain requests, the client may use
 the 'prompt' parameter for the
-[authorization request](http://docs.telenordigital.com//apis/connect/id/authentication.html#authorization-server-user-authorization).
+[authorization request](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-authorization).
 
 Controlling the maximum age of the authentication might be especially useful in combination with
 requiring higher LoA for sensitive functionality as described in the previous section.
@@ -201,7 +201,7 @@ Some services might be concerned about their clients having to send a separate r
 the authorization server to [validate the access token](#access-token-validation)
 for every access to service-specific protected resources.
 They might for instance be concerned about the extra latency introduced by the
-[/tokeninfo](http://docs.telenordigital.com//apis/connect/id/authentication.html#authorization-server-token-information)
+[/tokeninfo](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-token-information)
 request or the sheer number of requests.
 Those clients may enable the back-channel logout feature by getting a client callback endpoint
 for back-channel logout notifications configured in the authorization server.
@@ -214,11 +214,11 @@ according to the
 
 The logout token is a signed JWT, and just like the ID token, the signature can be validated and
 contents can be decoded by passing it to the
-[/tokeninfo](http://docs.telenordigital.com//apis/connect/id/authentication.html#authorization-server-token-information) endpoint.
+[/tokeninfo](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-token-information) endpoint.
 Please note that this function is not supposed to be used in production because of
 the extra network call.
 In production, the client should get and cache the public keys for signing from the
-[JWK set endpoint](http://docs.telenordigital.com//apis/connect/id/authentication.html#authorization-server-jwk-set-endpoint)
+[JWK set endpoint](http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-jwk-set-endpoint)
 and a JWT library should be used to validate the signature and decode the logout token locally,
 see [ID token validation](authorization-and-authentication/id-token.html#id-token-validation) for recommendations and links.
 
