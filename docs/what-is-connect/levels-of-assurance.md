@@ -22,14 +22,14 @@ Different levels can be used for different areas of your service.
 ## Mobile phone authentication
 With this security level the users get access when they are in possession of their phone. Depending on if the users phone is connected to the internet via mobile data or via WiFi, different flows apply.
 
--   On mobile data (Telenor subscribers only)<sup>`*`</sup>
+-   On mobile data (Telenor subscribers only)
     1.  Automatic detection of the phone number and automatic authentication of the user. No user interaction is required.
--   On WiFi (or mobile data for non-Telenor subscribers)<sup>`*`</sup>
+-   On WiFi (or mobile data for non-Telenor subscribers)
     1.  The user has to provide the phone number.
     2.  A one time verification code is sent via SMS.
     3.  The user has to enter the verification code.
 
-<sup>`*`</sup>with the Android SDK, automatic detection of the phone number can also be made available when the user is both on mobile data and on WiFi (webview only)
+With the Android SDK, automatic detection of the phone number can also be made available when the user is both on mobile data and on WiFi (webview only)
 
 ## Password authentication
 For this authentication method the user needs to enter a password. As a user name both phone number and email address can be used. For this level of security the user flows on mobile data and on WiFi are very similar.
