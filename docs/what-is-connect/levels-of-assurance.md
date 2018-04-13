@@ -1,5 +1,5 @@
 ---
-title: Various security levels (Levels of assurance)
+title: Levels of assurance
 description: Features of CONNECT
 collection: connect-features
 order: 2
@@ -13,19 +13,23 @@ tags:
 CONNECT offers 2 main security levels for your service:
 
 -   Mobile phone authentication (LoA1)
--   Password authentication (LoA2) Different levels can be used for different areas of your service - more about Security *All security levels work both on mobile data and on WiFi.*
+-   Password authentication (LoA2)
+
+Different levels can be used for different areas of your service.
+
+*All security levels work both on mobile data and on WiFi.*
 
 ## Mobile phone authentication
 With this security level the users get access when they are in possession of their phone. Depending on if the users phone is connected to the internet via mobile data or via WiFi, different flows apply.
 
--   On mobile data (Telenor subscribers only)*
+-   On mobile data (Telenor subscribers only)<sup>`*`</sup>
     1.  Automatic detection of the phone number and automatic authentication of the user. No user interaction is required.
--   On WiFi (or mobile data for non-Telenor subscribers)*
+-   On WiFi (or mobile data for non-Telenor subscribers)<sup>`*`</sup>
     1.  The user has to provide the phone number.
     2.  A one time verification code is sent via SMS.
     3.  The user has to enter the verification code.
 
-´* with the Android SDK, automatic detection of the phone number can also be made available when the user is both on mobile data and on WiFi (webview only)
+<sup>`*`</sup>with the Android SDK, automatic detection of the phone number can also be made available when the user is both on mobile data and on WiFi (webview only)
 
 ## Password authentication
 For this authentication method the user needs to enter a password. As a user name both phone number and email address can be used. For this level of security the user flows on mobile data and on WiFi are very similar.
