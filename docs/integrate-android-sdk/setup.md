@@ -34,7 +34,7 @@ allprojects {
 }
 ```
 
-Before using the SDK some entries have to be added to `AndroidManifest.xml`. The example app contains [a full example of a valid `AndroidManifest.xml`](https://github.com/telenordigital/connect-android-sdk/blob/master/connect-id-example/src/main/AndroidManifest.xml).
+Before using the SDK some entries have to be added to `AndroidManifest.xml`. See instructions below. The example app also contains [a full example of a valid `AndroidManifest.xml`](https://github.com/telenordigital/connect-android-sdk/blob/master/connect-id-example/src/main/AndroidManifest.xml).
 
 ## Set Staging or Production Environment
 
@@ -52,12 +52,13 @@ Set this to `false` if you want to use the production environment.
 
 ## Add client ID and redirect URI
 
-The CONNECT ID integration requires a client ID and a redirect URI to work. You should receive these when registering your application. See #requirements.
-The client ID and redirect URI should be added to your `strings.xml` file. Add strings with the names `connect_client_id` and `connect_redirect_uri`.
+The CONNECT ID integration requires a client ID and a redirect URI to work. You should receive these when registering your application. See [Required registration details](../get-started/client-registration-details.md).
 
+Add the client ID, and redirect URI and scheme to your `strings.xml` file:
 ```xml
-<string name="connect_client_id">example-clientid</string>
-<string name="connect_redirect_uri">example-clientid://oauth2callback</string>
+<string name="connect_client_id">telenordigital-connectexample-android</string>
+<string name="connect_redirect_uri">telenordigital-connectexample-android://oauth2callback</string>
+<string name="connect_redirect_uri_scheme">telenordigital-connectexample-android</string>
 ```
 
 Add `meta-data` entries to the `application` section of the manifest.

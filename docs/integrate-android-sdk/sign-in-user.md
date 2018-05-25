@@ -38,7 +38,7 @@ public class SignInActivity extends Activity {
         // When users have clicked the loginButton and signed in, this method call will check
         // that, and run the success callback method.
         // It checks if the Activity was started by a valid call to the redirect uri with a
-        // code and state, for example example-clientid://oauth2callback?code=123&state=xyz .
+        // code and state, for example telenordigital-connectexample-android://oauth2callback?code=123&state=xyz .
         // It also takes a callback that has a onSuccess and onError function.
         // If it is a success we have stored tokens, and can go to SignedInActivity.
         // Not needed if not using Chrome Custom Tabs.
