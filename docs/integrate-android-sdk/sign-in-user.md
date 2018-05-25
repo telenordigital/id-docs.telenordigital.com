@@ -26,10 +26,11 @@ public class SignInActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_in);
-
         // Initialize the SDK
         ConnectSdk.sdkInitialize(getApplicationContext());
+
+        setContentView(R.layout.activity_sign_in);
+
         // Find the ConnectLoginButton present in activity_sign_in.xml
         ConnectLoginButton loginButton = (ConnectLoginButton) findViewById(R.id.login_button);
         // Set the scope. The user can click the button afterwords
