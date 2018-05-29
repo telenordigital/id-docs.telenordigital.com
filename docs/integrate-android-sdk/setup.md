@@ -107,26 +107,6 @@ If the app is not using the Chrome Custom Tab feature you only need to override 
 [sign in example](./sign-in-user.md).
 
 
-## Add permissions
-
-Open your application's `AndroidManifest.xml` file and add the permission required to allow your application to access the internet.
-
-```xml
-<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<uses-permission android:name="android.permission.INTERNET"/>
-```
-
-Optionally you can enable the feature that automatically fills in verification PIN codes received on SMS by adding the following permissions, when you are not using the Chrome Custom Tab feature.
-
-```xml
-<uses-permission android:name="android.permission.RECEIVE_SMS" />
-<uses-permission android:name="android.permission.READ_SMS" />
-```
-
-Note: You should be conscious about the security implications of using this feature. When using this feature your application will load received SMS into memory for up to 60 seconds. Upon finding an SMS with the word `CONNECT` and a PIN-code, the PIN code will be parsed and passed back to a callback JavaScript function. More discussion can be found on Github in issue [#15](https://github.com/telenordigital/connect-android-sdk/issues/15).
-
-
 ## Add ConnectActivity for sign in
 
 The `ConnectActivity` needs to be added to the manifest in order for the SDK to work on devices not using the Chrome Custom Tab feature. Also if the `intent-filter` is missing the SDK will fall back to use this `Activity`. Add it to the `application` section.
@@ -143,3 +123,13 @@ The `ConnectActivity` needs to be added to the manifest in order for the SDK to 
 </application>
 ```
 
+## (Optional) Add permissions for SMS PIN autofill
+
+You can optionally enable the feature that automatically fills in verification PIN codes received on SMS by adding the following permissions, when you are *not* using the Chrome Custom Tab feature. Open your application's `AndroidManifest.xml` file and add:
+
+```xml
+<uses-permission android:name="android.permission.RECEIVE_SMS" />
+<uses-permission android:name="android.permission.READ_SMS" />
+```
+
+Note: You should be conscious about the security implications of using this feature. When using this feature your application will load received SMS into memory for up to 60 seconds. Upon finding an SMS with the word `CONNECT` and a PIN-code, the PIN code will be parsed and passed back to a callback JavaScript function. More discussion can be found on Github in issue [#15](https://github.com/telenordigital/connect-android-sdk/issues/15).
