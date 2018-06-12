@@ -18,7 +18,7 @@ tags:
 ---
 
 ## Target the production environment
-To target the production enviroment initialize the SDK with the `useStagingEnviroment` parameter set to `false`:
+To target the production environment initialize the SDK with the `useStagingEnvironment` parameter set to `false`:
 
 ```java
 ConnectSdk.sdkInitialize(getApplicationContext(), false);
