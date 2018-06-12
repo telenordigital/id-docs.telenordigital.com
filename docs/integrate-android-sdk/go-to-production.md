@@ -23,3 +23,5 @@ To target the production enviroment initialize the SDK with the `useStagingEnvir
 ```java
 ConnectSdk.sdkInitialize(getApplicationContext(), false);
 ```
+
+Reference & explanation: <a target="_blank" href="http://docs.telenordigital.com/connect/environments.html">Environments</a><i class="material-icons md-18">open_in_new</i>
