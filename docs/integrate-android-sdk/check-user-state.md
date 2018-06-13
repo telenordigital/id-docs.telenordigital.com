@@ -4,7 +4,7 @@ description: Detailed information on using the CONNECT Android SDK for integrati
 collection: integrate-android-sdk
 order: 5
 lunr: true
-nav_sort: 4
+nav_sort: 5
 nav_groups:
   - primary
 tags:
