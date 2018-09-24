@@ -21,5 +21,4 @@ tags:
 ```swift
 // Check if user is signed in
 let userIsSignedIn = oauth2Module.oauth2Session.refreshTokenIsNotExpired()
-
 ```

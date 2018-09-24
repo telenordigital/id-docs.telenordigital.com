@@ -28,5 +28,4 @@ oauth2Module.requestAccess { (accessToken: AnyObject?, error: NSError?) in
     // use access token
     print("accessToken=\(String(describing: accessToken))")
 }
-
 ```
