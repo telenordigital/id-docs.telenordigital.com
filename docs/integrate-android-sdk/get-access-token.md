@@ -18,25 +18,49 @@ tags:
   - token
 ---
 
-Once the user is signed in you can get a valid Access Token by calling `ConnectSdk.getValidAccessToken(…)`:
+## Automatically get unexpired access token
+Once the user is signed in you can get a valid *access token* by calling `ConnectSdk.getValidAccessToken(…)`:
 
 ```java
 ConnectSdk.getValidAccessToken(new AccessTokenCallback() {
     @Override
-    public void onSuccess(String accessToken) {
-        // app code
+    public void success(String accessToken) {
+        Toast.makeText(SignedInActivity.this,
+                "accessToken can now be used to access user sensitive resources",
+                Toast.LENGTH_SHORT)
+                .show();
     }
 
     @Override
-    public void onError(Object errorData) {
-        // app code
+    public void unsuccessfulResult(Response response, boolean userDataRemoved) {
+        // a 4xx response will sign out any signed in user
+        if (userDataRemoved) {
+            goToLogin();
+        }
+        String text = response.body() != null
+                ? response.body().toString()
+                : "<empty response body>";
+        Toast.makeText(SignedInActivity.this, text, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void failure(Call<ConnectTokensTO> call, Throwable error) {
+        Toast.makeText(SignedInActivity.this,
+                "Failed to update token. Check connectivity and try again.",
+                Toast.LENGTH_LONG)
+                .show();
+    }
+
+    @Override
+    public void noSignedInUser() {
+        goToLogin();
     }
 });
 ```
 
-The above method will always return a valid access token, unless no user is signed in, in which
-case you will get a `ConnectRefreshTokenMissingException`.
+See [SignedInActivity.java in the example app](https://github.com/telenordigital/connect-android-sdk/blob/master/connect-id-example/src/main/java/com/telenor/connect/connectidexample/SignedInActivity.java) for a full example.
 
+## Manually check expiration time
 You can also manually check the expiration time of the stored access token and check if it is expired.
 
 ```java
