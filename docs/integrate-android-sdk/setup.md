@@ -12,6 +12,8 @@ tags:
   - android
   - guide
   - setup
+  - set
+  - up
 ---
 
 ## Add dependencies
@@ -109,13 +111,9 @@ The `ConnectActivity` needs to be added to the manifest in order for the SDK to 
 </application>
 ```
 
-## (Optional) Add permissions for SMS PIN autofill
+## (Optional) Enable SMS PIN autofill
 
-You can optionally enable the feature that automatically fills in verification PIN codes received on SMS by adding the following permissions, when you are *not* using the Chrome Custom Tab feature. Open your application's `AndroidManifest.xml` file and add:
+You can optionally enable the feature for automatically filling in verification PIN codes received on SMS.
 
-```xml
-<uses-permission android:name="android.permission.RECEIVE_SMS" />
-<uses-permission android:name="android.permission.READ_SMS" />
-```
-
-Note: You should be conscious about the security implications of using this feature. When using this feature your application will load received SMS into memory for up to 60 seconds. Upon finding an SMS with the word `CONNECT` and a PIN-code, the PIN code will be parsed and passed back to a callback JavaScript function. More discussion can be found on Github in issue [#15](https://github.com/telenordigital/connect-android-sdk/issues/15).
+1.  [Calculate the app hash](https://developers.google.com/identity/sms-retriever/verify#computing_your_apps_hash_string).
+1.  Send the 11 base64-encoded characters to us at integration-support<span style="display:none">nospamfiller</span>@telenordigital.com (**note** There will be one hash for the development version (staging) and one for the production version).
