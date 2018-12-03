@@ -23,7 +23,7 @@ The binaries are included on JCenter, so the SDK can be added by including a lin
 ```gradle
 dependencies {
     // ...
-    implementation 'com.telenor.connect:connect-android-sdk:1.8.0' // add this line
+    implementation 'com.telenor.connect:connect-android-sdk:1.9.0' // add this line
 }
 ```
 
