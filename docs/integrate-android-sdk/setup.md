@@ -132,7 +132,7 @@ You can safely ignore the warning about unused tag in API levels lower than 24.
 
 This is needed for the SDK to work as expected on Android Pie and newer.
 
-If you have your own networkSecurityConfig just make sure include the entries from `network_security_config_connect_id`.
+If you have your own `networkSecurityConfig` make sure the entries from `network_security_config_connect_id` are included.
 
 ## (Optional) Enable SMS PIN autofill
 
