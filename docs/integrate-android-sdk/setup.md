@@ -114,6 +114,26 @@ The `ConnectActivity` needs to be added to the manifest in order for the SDK to 
 </application>
 ```
 
+
+## Add networkSecurityConfig to application
+
+```xml
+<manifest ... >
+  <application
+    android:networkSecurityConfig="@xml/network_security_config_connect_id"
+    // add this line ⬆️
+    ... >
+  </application>
+</manifest>
+```
+*Your app's `AndroidManifest.xml` file.*
+
+You can safely ignore the warning about unused tag in API levels lower than 24.
+
+This is needed for the SDK to work as expected on Android Pie and newer.
+
+If you have your own networkSecurityConfig just make sure include the entries from `network_security_config_connect_id`.
+
 ## (Optional) Enable SMS PIN autofill
 
 You can optionally enable the feature for automatically filling in verification PIN codes received on SMS.
