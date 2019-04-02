@@ -126,6 +126,7 @@ The `ConnectActivity` needs to be added to the manifest in order for the SDK to 
   </application>
 </manifest>
 ```
+
 *Your app's `AndroidManifest.xml` file.*
 
 You can safely ignore the warning about unused tag in API levels lower than 24.
