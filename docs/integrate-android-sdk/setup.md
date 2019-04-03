@@ -135,6 +135,22 @@ This is needed for the SDK to work as expected on Android Pie and newer.
 
 If you have your own `networkSecurityConfig` make sure the entries from `network_security_config_connect_id` are included.
 
+## (Optional) Enable prompt for automatic sign in
+
+To allow the SDK to prompt users to turn on mobile data, to allow them to instantly sign in, add the following `meta-data` element to your `AndroidManifest.xml` file:
+
+```xml
+<application ... >
+  <meta-data
+    android:name="com.telenor.connect.ENABLE_TURN_ON_MOBILE_DATA_DIALOG"
+    android:value="true" />
+</application>
+```
+
+<img src="img/sign_in_automatically/sign_in_automatically_1.jpg" alt="Sign In Automatically - mobile data disabled" style="max-width: 200px"  >
+
+<img src="img/sign_in_automatically/sign_in_automatically_2.jpg" alt="Sign In Automatically - mobile data enabled" style="max-width: 200px">
+
 ## (Optional) Enable SMS PIN autofill
 
 You can optionally enable the feature for automatically filling in verification PIN codes received on SMS.
