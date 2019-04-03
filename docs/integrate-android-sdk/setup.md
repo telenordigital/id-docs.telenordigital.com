@@ -147,6 +147,8 @@ To allow the SDK to prompt users to turn on mobile data, to allow them to instan
 </application>
 ```
 
+[youtube.com/watch?v=mZAap5zoMzo](https://www.youtube.com/watch?v=mZAap5zoMzo)
+
 <img src="img/sign_in_automatically/sign_in_automatically_1.jpg" alt="Sign In Automatically - mobile data disabled" style="max-width: 200px"  >
 
 <img src="img/sign_in_automatically/sign_in_automatically_2.jpg" alt="Sign In Automatically - mobile data enabled" style="max-width: 200px">
