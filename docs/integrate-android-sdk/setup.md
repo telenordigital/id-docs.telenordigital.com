@@ -137,7 +137,7 @@ If you have your own `networkSecurityConfig` make sure the entries from `network
 
 ## (Optional) Enable prompt for automatic sign in
 
-To allow the SDK to prompt users to turn on mobile data, to allow them to instantly sign in, add the following `meta-data` element to your `AndroidManifest.xml` file:
+To allow the SDK to prompt users to turn on mobile data so they can instantly sign in, add the following `meta-data` element to your `AndroidManifest.xml` file:
 
 ```xml
 <application ... >
