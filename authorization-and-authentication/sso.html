@@ -1,0 +1,284 @@
+<!doctype html>
+<html class="docs-html">
+<head>
+  <meta charset="utf-8">
+  <title>Single sign-on - CONNECT ID Documentation</title>
+    <meta name="description" content="Single sign-on">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Single sign-on - CONNECT ID Documentation">
+  <meta name="twitter:description" content="Single sign-on">
+  <meta name="twitter:image" content="https://telenordigital.github.io/id-docs.telenordigital.com/img/og_image.jpg">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Single sign-on - CONNECT ID Documentation" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://telenordigital.github.io/id-docs.telenordigital.com/authorization-and-authentication/sso.html" />
+  <meta property="og:image" content="https://telenordigital.github.io/id-docs.telenordigital.com/img/og_image.jpg" />
+  <meta property="og:description" content="Single sign-on" />
+  <meta property="og:site_name" content="CONNECT ID Documentation" />
+
+  <link rel="stylesheet" type="text/css" href="/id-docs.telenordigital.com/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-docs-preset.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link id="searchIndex" href="/id-docs.telenordigital.com/index.json" rel="preload" as="fetch">
+</head>
+<body class="docs-body">
+  <div id="docs-topbar" class="docs-topbar no-print">
+    <div id="docs-topbar__inner" class="docs-topbar__inner">
+      <a href="#" id="docs-menu-toggle" class="docs-topbar__icon docs-topbar__icon--menu-toggle hidden-desktop"><i class="material-icons md-24">menu</i></a>
+      <a href="#" id="docs-search-hide" class="docs-topbar__icon docs-topbar__icon--search-hide hidden-desktop"><i class="material-icons md-24">arrow_back</i></a>
+      <div class="docs-topbar__icon docs-topbar__icon--search visible-desktop"><i class="material-icons md-24">search</i></div>
+      <input id="docs-search-box" type="text" class="docs-topbar__search-box" placeholder="Search" tabindex="1" autocapitalize="none" autocomplete="off" autocorrect="off" autofocus />
+      <a href="#" id="docs-search-close" class="docs-topbar__icon docs-topbar__icon--search-close"><i class="material-icons md-24">close</i></a>
+      <a href="#" id="docs-search-show" class="docs-topbar__icon docs-topbar__icon-search-show hidden-desktop"><i class="material-icons md-24">search</i></a>
+
+          <a class="docs-topbar__link visible-desktop" href="https://github.com/telenordigital/id-docs.telenordigital.com">On Github</a>
+    </div>
+    <div id="docs-search" class="docs-search">
+      <ul id="docs-search-results" class="docs-search-results"></ul>
+    </div>
+  </div>
+  <div id="docs-sidebar" class="docs-sidebar visible-desktop no-print">
+    <nav class="docs-nav">
+      <a class="docs-nav__logo" href="/id-docs.telenordigital.com/"></a>
+        <ul class="docs-nav__ul">
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">Get started</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/get-started/register-client.html" class="docs-nav__item">Register client</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/get-started/client-registration-details.html" class="docs-nav__item">Required registration details</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">What is CONNECT?</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/how-it-works.html" class="docs-nav__item">How it works</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/single-sign-on.html" class="docs-nav__item">Single sign on</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/levels-of-assurance.html" class="docs-nav__item">Levels of assurance</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/account-management.html" class="docs-nav__item">Account management</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/other-features.html" class="docs-nav__item">Other CONNECT features</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/ui-examples.html" class="docs-nav__item">UI examples</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/general-recommendations.html" class="docs-nav__item">General recommendations</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/integration-sign-in-details.html" class="docs-nav__item">Integration details for handling sign in</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/session-handling.html" class="docs-nav__item">Session handling</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/terminology.html" class="docs-nav__item">Terminology/Glossary</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">Integrate</span>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-android-sdk.html" class="docs-nav__item">Android SDK integration</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/setup.html" class="docs-nav__item">Setup</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/sign-in-user.html" class="docs-nav__item">Sign in user</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/get-access-token.html" class="docs-nav__item">Get a valid access token</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/access-user-information.html" class="docs-nav__item">Access user information</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/check-user-state.html" class="docs-nav__item">Check user state</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/customise-the-user-experience.html" class="docs-nav__item">Customise the user experience</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/go-to-production.html" class="docs-nav__item">Go to production</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-ios-sdk.html" class="docs-nav__item">iOS SDK integration</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/set-up.html" class="docs-nav__item">Set up</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/check-user-is-signed-in.html" class="docs-nav__item">Check user is signed in</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/get-access-token.html" class="docs-nav__item">Get access token</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-web-app.html" class="docs-nav__item">Web application integration</a>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">CONNECT features</span>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/authorization-and-authentication.html" class="docs-nav__item">Authorization &amp; authentication</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/scope.html" class="docs-nav__item">Scope</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/client-security-measures.html" class="docs-nav__item">Client security measures</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/id-token.html" class="docs-nav__item">ID token</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/sso.html" class="docs-nav__item">Single sign-on</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/authorization-examples.html" class="docs-nav__item">Authorization code examples</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/user-data.html" class="docs-nav__item">User data</a>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">API Reference</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/apireference/authentication.html" class="docs-nav__item">Authentication &amp; authorization</a>
+                            </li>
+                    </ul>
+                </li>
+        </ul>
+        <div class="docs-sidebar__menuLinks hidden-desktop">
+          <hr class="docs-nav__hr" />
+          <ul class="docs-nav__ul">
+              <li class="docs-nav__li">
+                <a href="https://github.com/telenordigital/id-docs.telenordigital.com" class="docs-nav__item">On Github</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <div id="barba-wrapper" class="docs-wrapper">
+    <div class="docs-content barba-container">
+      <h1>Single sign-on</h1>
+        <ol class="docs-breadcrumbs tn-breadcrumbs visible-desktop">
+                <li class="tn-breadcrumb">
+                    <a href="/id-docs.telenordigital.com/">Home</a>
+                </li>
+              <li class="tn-breadcrumb">
+                      <a href="/id-docs.telenordigital.com/authorization-and-authentication.html">Authorization &amp; authentication</a>
+              </li>
+            <li class="tn-breadcrumb tn-breadcrumb--active">Single sign-on</li>
+        </ol>
+      <p>CONNECT ID (or more specifically the authorization server) has a notion of an end user being logged
+in with a given user agent (browser). The functionality is based on establishing a session between
+the authorization server and the browser by storing session data on the server and a session
+identifier in an HTTP cookie. The session facilitates so-called single sign-on (SSO) functionality,
+which means that the user does not need to supply credentials (authenticate) with the authorization
+server if a valid SSO session exists between the authorization server and the browser he uses. The
+SSO session might e.g. have been created earlier when the user authenticated for another client
+using the same browser.</p>
+<p>Note that native apps need to use a browser that is sharing cookies between invocations to get
+benefit from the SSO functionality. Examples of such browsers are external browsers
+(the system browser) or embedded browsers like Safari View Controller on iOS or
+Chrome Custom Tabs on Android. If the app uses a simple WebView, SSO will not work.</p>
+<p>Using the SSO session can be enabled per client, which means that clients that have not enabled SSO
+will not use any SSO session for authentication. Note that the SSO session for the authorization
+server is different from and unrelated to any potential mechanisms implemented by clients to manage
+sessions with the end user.</p>
+<p>If the client has enabled SSO functionality, and wants to specify the maximum allowed time in
+seconds since the last time the end user actively authenticated, it may do so using the max_age
+query parameter for the
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-authorization">/authorize</a> endpoint.
+Since there is a small possibility that the max_age parameter was changed en route to the
+authorization server, the client should check the age of the authentication by validating the
+“auth_time” claim in the <a href="id-token.html">ID token</a>.</p>
+<p>If the client needs to check for existing authentication (SSO session) and/or consent, it may set
+the value “none” for the prompt parameter in the request to the
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-authorization">/authorize</a> endpoint.
+If no user interaction (prompt) is necessary, an authorization code will be delivered to the client
+callback redirect URI, otherwise an error will be delivered.</p>
+<h2 id="-remember-me-stay-logged-in-functionality">“Remember me”/“stay logged in” functionality</h2>
+<p>Clients can opt in to having a “remember me”/“stay logged in” option for their users on login.
+Enabling this option will result in a “remember me”/“stay logged in” checkbox to appear in the
+end user login dialog.
+When this option is enabled for a client and the user has chosen not to have their login
+remembered, their SSO session will expire when their browser window is closed.</p>
+<p>This is useful for clients with sensitive functionality that want the end user to be able to
+limit the duration of sessions created, e.g. when accessing the client on a public computer.
+The public computer case is only relevant for web applications, so we do only allow the
+“remember me”/“stay logged in” functionality to be enabled for web applications.
+For web applications that want to get SSO with Levels of Assurance (LoAs) higher than LoA 1,
+having the “remember me”/“stay logged in” option enabled is a requirement.
+Note that in case a public computer is used and the user fails to uncheck the
+“remember me”/“stay logged in” checkbox at login, they will still have a chance to expire/invalidate
+the SSO session by accessing the logout functionality provided by the client, see the next section.</p>
+<p>Clients that choose to enable this functionality are expected to ensure that no cookies nor
+sessions held towards the user on the client side last longer than the browser session if the user
+chooses not to be remembered. This choice is propagated to the clients through a custom claim named
+“td_sls” in the <a href="id-token.html">ID token</a>.</p>
+<p>The “td_sls” claim is an abbreviation of “Telenor Digital: Short-lived session”. If this claim
+exists in the ID token and has the value “true”, the user has chosen to be remembered only for this
+browser session. When this is the case, any cookies set by the client to the user agent should not
+have an “expires” attribute. If cookies are not used to maintain the session between a user and the
+client, the client is expected to implement a fitting equivalent mechanism that expires the session
+when the user can be considered to have exited the service.</p>
+<h2 id="logout">Logout</h2>
+<p>There are two different kinds of logout in CONNECT ID. The user may either log out from a service,
+or from a service and CONNECT ID. The latter option is useful if the client has SSO enabled,
+as users that have only logged out from the service might be automatically logged in afterwards
+because they are still logged in to CONNECT.</p>
+<p>Logging out an end user from the service is a matter of deleting the access and refresh tokens
+stored locally on the client. The client should make sure that the access and refresh tokens
+cannot be used by anyone after logout as well. Therefore, tokens should be revoked as well via the
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-revoke-token-post">/revoke</a> endpoint.</p>
+<p>Clients that have enabled the SSO functionality, and want to log the user out of CONNECT ID
+as well, should redirect the user to the
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-logout-get">/logout</a> endpoint.
+Alternatively, the client may perform an HTTP POST to the
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-logout-post">same endpoint</a>
+with a valid access token.
+The former approach is most suitable for web applications accessed via a browser, while the latter
+is most suitable for native applications.
+Note that after the logout is completed, some or all of the access tokens
+and refresh tokens the client has received on behalf of this user may be unusable.</p>
+
+      <div class="lesson-nav">
+          <a class="prev" href="/id-docs.telenordigital.com/authorization-and-authentication/scope.html">&larr; Scope</a>
+      </div>
+        <a class="docs-edit-btn no-print" href="https://github.com/TelenorDigital/id-docs.telenordigital.com/edit/master/docs/authorization-and-authentication/sso.md" target="_blank">Edit this page</a>
+    </div>
+  </div>
+    <script src="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-bundle.js" ></script>
+    <script src="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-docs-preset.js" ></script>
+  <script src="/id-docs.telenordigital.com/script/vendor.js" ></script>
+  <script src="/id-docs.telenordigital.com/script/script.js" ></script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+</html>

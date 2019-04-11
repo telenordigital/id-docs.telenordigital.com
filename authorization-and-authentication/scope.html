@@ -1,0 +1,330 @@
+<!doctype html>
+<html class="docs-html">
+<head>
+  <meta charset="utf-8">
+  <title>Scope - CONNECT ID Documentation</title>
+    <meta name="description" content="scopes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Scope - CONNECT ID Documentation">
+  <meta name="twitter:description" content="scopes">
+  <meta name="twitter:image" content="https://telenordigital.github.io/id-docs.telenordigital.com/img/og_image.jpg">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Scope - CONNECT ID Documentation" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://telenordigital.github.io/id-docs.telenordigital.com/authorization-and-authentication/scope.html" />
+  <meta property="og:image" content="https://telenordigital.github.io/id-docs.telenordigital.com/img/og_image.jpg" />
+  <meta property="og:description" content="scopes" />
+  <meta property="og:site_name" content="CONNECT ID Documentation" />
+
+  <link rel="stylesheet" type="text/css" href="/id-docs.telenordigital.com/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-docs-preset.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link id="searchIndex" href="/id-docs.telenordigital.com/index.json" rel="preload" as="fetch">
+</head>
+<body class="docs-body">
+  <div id="docs-topbar" class="docs-topbar no-print">
+    <div id="docs-topbar__inner" class="docs-topbar__inner">
+      <a href="#" id="docs-menu-toggle" class="docs-topbar__icon docs-topbar__icon--menu-toggle hidden-desktop"><i class="material-icons md-24">menu</i></a>
+      <a href="#" id="docs-search-hide" class="docs-topbar__icon docs-topbar__icon--search-hide hidden-desktop"><i class="material-icons md-24">arrow_back</i></a>
+      <div class="docs-topbar__icon docs-topbar__icon--search visible-desktop"><i class="material-icons md-24">search</i></div>
+      <input id="docs-search-box" type="text" class="docs-topbar__search-box" placeholder="Search" tabindex="1" autocapitalize="none" autocomplete="off" autocorrect="off" autofocus />
+      <a href="#" id="docs-search-close" class="docs-topbar__icon docs-topbar__icon--search-close"><i class="material-icons md-24">close</i></a>
+      <a href="#" id="docs-search-show" class="docs-topbar__icon docs-topbar__icon-search-show hidden-desktop"><i class="material-icons md-24">search</i></a>
+
+          <a class="docs-topbar__link visible-desktop" href="https://github.com/telenordigital/id-docs.telenordigital.com">On Github</a>
+    </div>
+    <div id="docs-search" class="docs-search">
+      <ul id="docs-search-results" class="docs-search-results"></ul>
+    </div>
+  </div>
+  <div id="docs-sidebar" class="docs-sidebar visible-desktop no-print">
+    <nav class="docs-nav">
+      <a class="docs-nav__logo" href="/id-docs.telenordigital.com/"></a>
+        <ul class="docs-nav__ul">
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">Get started</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/get-started/register-client.html" class="docs-nav__item">Register client</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/get-started/client-registration-details.html" class="docs-nav__item">Required registration details</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">What is CONNECT?</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/how-it-works.html" class="docs-nav__item">How it works</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/single-sign-on.html" class="docs-nav__item">Single sign on</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/levels-of-assurance.html" class="docs-nav__item">Levels of assurance</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/account-management.html" class="docs-nav__item">Account management</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/other-features.html" class="docs-nav__item">Other CONNECT features</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/ui-examples.html" class="docs-nav__item">UI examples</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/general-recommendations.html" class="docs-nav__item">General recommendations</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/integration-sign-in-details.html" class="docs-nav__item">Integration details for handling sign in</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/session-handling.html" class="docs-nav__item">Session handling</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/terminology.html" class="docs-nav__item">Terminology/Glossary</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">Integrate</span>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-android-sdk.html" class="docs-nav__item">Android SDK integration</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/setup.html" class="docs-nav__item">Setup</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/sign-in-user.html" class="docs-nav__item">Sign in user</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/get-access-token.html" class="docs-nav__item">Get a valid access token</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/access-user-information.html" class="docs-nav__item">Access user information</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/check-user-state.html" class="docs-nav__item">Check user state</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/customise-the-user-experience.html" class="docs-nav__item">Customise the user experience</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/go-to-production.html" class="docs-nav__item">Go to production</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-ios-sdk.html" class="docs-nav__item">iOS SDK integration</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/set-up.html" class="docs-nav__item">Set up</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/check-user-is-signed-in.html" class="docs-nav__item">Check user is signed in</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/get-access-token.html" class="docs-nav__item">Get access token</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-web-app.html" class="docs-nav__item">Web application integration</a>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">CONNECT features</span>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/authorization-and-authentication.html" class="docs-nav__item">Authorization &amp; authentication</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/scope.html" class="docs-nav__item">Scope</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/client-security-measures.html" class="docs-nav__item">Client security measures</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/id-token.html" class="docs-nav__item">ID token</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/sso.html" class="docs-nav__item">Single sign-on</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/authorization-examples.html" class="docs-nav__item">Authorization code examples</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/user-data.html" class="docs-nav__item">User data</a>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">API Reference</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/apireference/authentication.html" class="docs-nav__item">Authentication &amp; authorization</a>
+                            </li>
+                    </ul>
+                </li>
+        </ul>
+        <div class="docs-sidebar__menuLinks hidden-desktop">
+          <hr class="docs-nav__hr" />
+          <ul class="docs-nav__ul">
+              <li class="docs-nav__li">
+                <a href="https://github.com/telenordigital/id-docs.telenordigital.com" class="docs-nav__item">On Github</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <div id="barba-wrapper" class="docs-wrapper">
+    <div class="docs-content barba-container">
+      <h1>Scope</h1>
+        <ol class="docs-breadcrumbs tn-breadcrumbs visible-desktop">
+                <li class="tn-breadcrumb">
+                    <a href="/id-docs.telenordigital.com/">Home</a>
+                </li>
+              <li class="tn-breadcrumb">
+                      <a href="/id-docs.telenordigital.com/authorization-and-authentication.html">Authorization &amp; authentication</a>
+              </li>
+            <li class="tn-breadcrumb tn-breadcrumb--active">Scope</li>
+        </ol>
+      <p>The scope of an access token is a list of space-delimited strings (scope values) associated with
+the access token. Scope values can be viewed as permissions.
+The scope attained affects which protected resources the client is allowed to get access to
+using the access token. The protected resources are typically available on resource servers,
+which are implemented according to the
+<a href="https://tools.ietf.org/html/rfc6750">OAuth bearer token usage specification (RFC 6750)</a>.
+For each request to a resource server, it verifies that the scope for the access token
+is sufficient for accessing the protected resource.</p>
+<p>When the client initiates an authorization request, it requests the scope it needs using
+the scope parameter for the
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-authorization">/authorize</a> endpoint.
+The user will typically get the chance to allow or disallow that the client gets access to
+the resources protected by the scope values in a separate user dialog.</p>
+<p>The scope value <strong>openid</strong> dictates the use of OpenID Connect over OAuth 2.0. When this
+scope value is given, the return value from the call which generates tokens based on the
+one-time authorization code also returns an <a href="id-token.html">ID token</a>. The ID token is a signed
+<a href="https://tools.ietf.org/html/rfc7519">JSON Web Token (JWT)</a> containing,
+among other things, <strong>iss</strong> (Issuer Identifier for the issuer of the response) and <strong>sub</strong> (Subject
+identifier, in this case the user’s ID).
+The user ID is a required part of the path for some of the resource server endpoints listed below.</p>
+<p>The following tables constitute a comprehensive list of available scope values within CONNECT
+and the resource server endpoints they belong to. Note that services that implement
+custom resource servers can get additional custom scope values configured for their clients.</p>
+<h3 id="oauth-resources">OAuth resources</h3>
+<p>More details about these scope values can be found in the
+<a href="http://openid.net/specs/openid-connect-core-1_0.html">OpenID Connect Core specification</a></p>
+<table>
+<thead>
+<tr>
+<th>Scope value</th>
+<th>Description</th>
+<th>Endpoint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>openid</td>
+<td>Requesting this scope value results in an ID token being returned when exchanging your authorization code for an access/refresh token pair.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-token-post">POST /oauth/token</a></td>
+</tr>
+<tr>
+<td>profile</td>
+<td>Basic user information. Claims: <strong>name</strong> and <strong>locale</strong>. Additional claims are not supported yet.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-information">GET /oauth/userinfo</a></td>
+</tr>
+<tr>
+<td>email</td>
+<td>The user’s preferred email address. Claims: <strong>email</strong> and <strong>email_verified</strong>.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-information">GET /oauth/userinfo</a></td>
+</tr>
+<tr>
+<td>address</td>
+<td>The user’s known postal address. Claims: <strong>address</strong>. Not supported yet.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-information">GET /oauth/userinfo</a></td>
+</tr>
+<tr>
+<td>phone</td>
+<td>The user’s preferred phone number. Claims: <strong>phone_number</strong> and <strong>phone_number_verified</strong>.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-information">GET /oauth/userinfo</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="user-and-rights-management-resources">User and rights management resources</h3>
+<p>All requests requiring a user ID must contain the user ID that the bearer token is issued on behalf
+of. This ID is provided in the ID token, or in the response of a <strong>/userinfo</strong> or <strong>/id/users/me</strong>
+request.</p>
+<table>
+<thead>
+<tr>
+<th>Scope value</th>
+<th>Description</th>
+<th>Endpoint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id.user.read</td>
+<td>Read access to basic user information.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/users.html#users-user-resource-get">GET /id/users/me</a><br /><a href="http://docs.telenordigital.com/apis/connect/id/users.html#users-user-resource-get">GET /id/users/{userId}</a></td>
+</tr>
+<tr>
+<td>id.user.write</td>
+<td>Update/Write access to basic user information. Not available for public clients.</td>
+<td>PUT /id/users/me<br />PUT /id/users/{userId}</td>
+</tr>
+<tr>
+<td>id.user.email.read</td>
+<td>Read access to all registered user email addresses.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/emails.html#emails-email-collection-resource-get">GET /id/users/{userId}/mails</a><br /><a href="http://docs.telenordigital.com/apis/connect/id/emails.html#emails-email-resource-get">GET /id/users/{userId}/mails/{mailId}</a></td>
+</tr>
+<tr>
+<td>id.user.phone.read</td>
+<td>Read access to all registered user phone numbers.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/phones.html#phones-phone-collection-resource-get">GET /id/users/{userId}/phones</a><br /><a href="http://docs.telenordigital.com/apis/connect/id/phones.html#phones-phone-resource-get">GET /id/users/{userId}/phones/{phoneId}</a></td>
+</tr>
+<tr>
+<td>id.user.right.read</td>
+<td>Read access to all registered user rights.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/rights/rights.html#rights-right-list">GET /id/users/{userId}/rights</a><br /><a href="http://docs.telenordigital.com/apis/connect/rights/rights.html#rights-right-resource-get">GET /id/users/{userId}/rights/{rightId}</a></td>
+</tr>
+<tr>
+<td>id.user.right.use</td>
+<td>Record usage on a right to indicate that the right is being consumed. Not available for public clients.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/rights/rights.html#rights-record-usage">POST /id/users/{userId}/rights/{rightId}/usage</a></td>
+</tr>
+<tr>
+<td>id.user.sub.read</td>
+<td>Read access to all registered user subscriptions.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/rights/subscriptions.html#subscriptions-list-subscriptions">GET /id/users/{userId}/subs</a><br /><a href="http://docs.telenordigital.com/apis/connect/rights/subscriptions.html#subscriptions-subscription-operations-get">GET /id/users/{userId}/subs/{subId}</a></td>
+</tr>
+<tr>
+<td>id.user.account.read</td>
+<td>Read access to all registered user accounts.</td>
+<td><a href="http://docs.telenordigital.com/apis/connect/id/accounts.html#accounts-account-collection-resource-get">GET /id/users/{userId}/accounts</a><br /><a href="http://docs.telenordigital.com/apis/connect/id/accounts.html#accounts-account-resource-get">GET /id/users/{userId}/accounts/{accountId}</a></td>
+</tr>
+</tbody>
+</table>
+
+      <div class="lesson-nav">
+          <a class="prev" href="/id-docs.telenordigital.com/authorization-and-authentication/id-token.html">&larr; ID token</a>
+          <a class="next right" href="/id-docs.telenordigital.com/authorization-and-authentication/sso.html">Single sign-on &rarr;</a>
+      </div>
+        <a class="docs-edit-btn no-print" href="https://github.com/TelenorDigital/id-docs.telenordigital.com/edit/master/docs/authorization-and-authentication/scope.md" target="_blank">Edit this page</a>
+    </div>
+  </div>
+    <script src="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-bundle.js" ></script>
+    <script src="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-docs-preset.js" ></script>
+  <script src="/id-docs.telenordigital.com/script/vendor.js" ></script>
+  <script src="/id-docs.telenordigital.com/script/script.js" ></script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+</html>

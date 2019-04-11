@@ -1,0 +1,287 @@
+<!doctype html>
+<html class="docs-html">
+<head>
+  <meta charset="utf-8">
+  <title>Sign in user - CONNECT ID Documentation</title>
+    <meta name="description" content="Detailed information on using the CONNECT Android SDK for integration.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sign in user - CONNECT ID Documentation">
+  <meta name="twitter:description" content="Detailed information on using the CONNECT Android SDK for integration.">
+  <meta name="twitter:image" content="https://telenordigital.github.io/id-docs.telenordigital.com/img/og_image.jpg">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Sign in user - CONNECT ID Documentation" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://telenordigital.github.io/id-docs.telenordigital.com/integrate-android-sdk/sign-in-user.html" />
+  <meta property="og:image" content="https://telenordigital.github.io/id-docs.telenordigital.com/img/og_image.jpg" />
+  <meta property="og:description" content="Detailed information on using the CONNECT Android SDK for integration." />
+  <meta property="og:site_name" content="CONNECT ID Documentation" />
+
+  <link rel="stylesheet" type="text/css" href="/id-docs.telenordigital.com/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-docs-preset.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link id="searchIndex" href="/id-docs.telenordigital.com/index.json" rel="preload" as="fetch">
+</head>
+<body class="docs-body">
+  <div id="docs-topbar" class="docs-topbar no-print">
+    <div id="docs-topbar__inner" class="docs-topbar__inner">
+      <a href="#" id="docs-menu-toggle" class="docs-topbar__icon docs-topbar__icon--menu-toggle hidden-desktop"><i class="material-icons md-24">menu</i></a>
+      <a href="#" id="docs-search-hide" class="docs-topbar__icon docs-topbar__icon--search-hide hidden-desktop"><i class="material-icons md-24">arrow_back</i></a>
+      <div class="docs-topbar__icon docs-topbar__icon--search visible-desktop"><i class="material-icons md-24">search</i></div>
+      <input id="docs-search-box" type="text" class="docs-topbar__search-box" placeholder="Search" tabindex="1" autocapitalize="none" autocomplete="off" autocorrect="off" autofocus />
+      <a href="#" id="docs-search-close" class="docs-topbar__icon docs-topbar__icon--search-close"><i class="material-icons md-24">close</i></a>
+      <a href="#" id="docs-search-show" class="docs-topbar__icon docs-topbar__icon-search-show hidden-desktop"><i class="material-icons md-24">search</i></a>
+
+          <a class="docs-topbar__link visible-desktop" href="https://github.com/telenordigital/id-docs.telenordigital.com">On Github</a>
+    </div>
+    <div id="docs-search" class="docs-search">
+      <ul id="docs-search-results" class="docs-search-results"></ul>
+    </div>
+  </div>
+  <div id="docs-sidebar" class="docs-sidebar visible-desktop no-print">
+    <nav class="docs-nav">
+      <a class="docs-nav__logo" href="/id-docs.telenordigital.com/"></a>
+        <ul class="docs-nav__ul">
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">Get started</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/get-started/register-client.html" class="docs-nav__item">Register client</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/get-started/client-registration-details.html" class="docs-nav__item">Required registration details</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">What is CONNECT?</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/how-it-works.html" class="docs-nav__item">How it works</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/single-sign-on.html" class="docs-nav__item">Single sign on</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/levels-of-assurance.html" class="docs-nav__item">Levels of assurance</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/account-management.html" class="docs-nav__item">Account management</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/other-features.html" class="docs-nav__item">Other CONNECT features</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/ui-examples.html" class="docs-nav__item">UI examples</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/general-recommendations.html" class="docs-nav__item">General recommendations</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/integration-sign-in-details.html" class="docs-nav__item">Integration details for handling sign in</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/session-handling.html" class="docs-nav__item">Session handling</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/terminology.html" class="docs-nav__item">Terminology/Glossary</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">Integrate</span>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-android-sdk.html" class="docs-nav__item">Android SDK integration</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/setup.html" class="docs-nav__item">Setup</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/sign-in-user.html" class="docs-nav__item">Sign in user</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/get-access-token.html" class="docs-nav__item">Get a valid access token</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/access-user-information.html" class="docs-nav__item">Access user information</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/check-user-state.html" class="docs-nav__item">Check user state</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/customise-the-user-experience.html" class="docs-nav__item">Customise the user experience</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/go-to-production.html" class="docs-nav__item">Go to production</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-ios-sdk.html" class="docs-nav__item">iOS SDK integration</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/set-up.html" class="docs-nav__item">Set up</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/check-user-is-signed-in.html" class="docs-nav__item">Check user is signed in</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/get-access-token.html" class="docs-nav__item">Get access token</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-web-app.html" class="docs-nav__item">Web application integration</a>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">CONNECT features</span>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/authorization-and-authentication.html" class="docs-nav__item">Authorization &amp; authentication</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/scope.html" class="docs-nav__item">Scope</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/client-security-measures.html" class="docs-nav__item">Client security measures</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/id-token.html" class="docs-nav__item">ID token</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/sso.html" class="docs-nav__item">Single sign-on</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/authorization-examples.html" class="docs-nav__item">Authorization code examples</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/user-data.html" class="docs-nav__item">User data</a>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">API Reference</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/apireference/authentication.html" class="docs-nav__item">Authentication &amp; authorization</a>
+                            </li>
+                    </ul>
+                </li>
+        </ul>
+        <div class="docs-sidebar__menuLinks hidden-desktop">
+          <hr class="docs-nav__hr" />
+          <ul class="docs-nav__ul">
+              <li class="docs-nav__li">
+                <a href="https://github.com/telenordigital/id-docs.telenordigital.com" class="docs-nav__item">On Github</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <div id="barba-wrapper" class="docs-wrapper">
+    <div class="docs-content barba-container">
+      <h1>Sign in user</h1>
+        <ol class="docs-breadcrumbs tn-breadcrumbs visible-desktop">
+                <li class="tn-breadcrumb">
+                    <a href="/id-docs.telenordigital.com/">Home</a>
+                </li>
+              <li class="tn-breadcrumb">
+                      <a href="/id-docs.telenordigital.com/integrate-android-sdk.html">Android SDK integration</a>
+              </li>
+            <li class="tn-breadcrumb tn-breadcrumb--active">Sign in user</li>
+        </ol>
+      <p>You can authenticate the user and authorize your application by using a <code>ConnectLoginButton</code>:</p>
+<pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SignInActivity</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Activity</span> </span>{
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onCreate</span><span class="hljs-params">(Bundle savedInstanceState)</span> </span>{
+        <span class="hljs-keyword">super</span>.onCreate(savedInstanceState);
+        <span class="hljs-comment">// Initialize the SDK</span>
+        ConnectSdk.sdkInitialize(getApplicationContext());
+
+        setContentView(R.layout.activity_sign_in);
+
+        <span class="hljs-comment">// Find the ConnectLoginButton present in activity_sign_in.xml</span>
+        ConnectLoginButton loginButton = (ConnectLoginButton) findViewById(R.id.login_button);
+        <span class="hljs-comment">// Set the scope. The user can click the button afterwords</span>
+        loginButton.setLoginScopeTokens(<span class="hljs-string">"profile openid"</span>);
+
+        <span class="hljs-comment">// When users have clicked the loginButton and signed in, this method call will check</span>
+        <span class="hljs-comment">// that, and run the success callback method.</span>
+        <span class="hljs-comment">// It checks if the Activity was started by a valid call to the redirect uri with a</span>
+        <span class="hljs-comment">// code and state, for example telenordigital-connectexample-android://oauth2callback?code=123&amp;state=xyz .</span>
+        <span class="hljs-comment">// It also takes a callback that has a onSuccess and onError function.</span>
+        <span class="hljs-comment">// If it is a success we have stored tokens, and can go to SignedInActivity.</span>
+        <span class="hljs-comment">// Not needed if not using Chrome Custom Tabs.</span>
+        ConnectSdk.handleRedirectUriCallIfPresent(getIntent(), <span class="hljs-keyword">new</span> ConnectCallback() {
+            <span class="hljs-meta">@Override</span>
+            <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onSuccess</span><span class="hljs-params">(Object successData)</span> </span>{
+                goToSignedInActivity();
+            }
+
+            <span class="hljs-meta">@Override</span>
+            <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onError</span><span class="hljs-params">(Object errorData)</span> </span>{
+                Log.e(ConnectUtils.LOG_TAG, errorData.toString());
+            }
+        });
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">goToSignedInActivity</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">final</span> Intent intent = <span class="hljs-keyword">new</span> Intent(getApplicationContext(), SignedInActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    <span class="hljs-comment">// Overriding onActivityResult here serves the same purpose as</span>
+    <span class="hljs-comment">// handleRedirectUriCallIfPresent further up. It is needed on older devices</span>
+    <span class="hljs-comment">// that don't support Chrome Custom Tabs, or if the intent-filter for the redirect uri</span>
+    <span class="hljs-comment">// to this activity is missing.</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onActivityResult</span><span class="hljs-params">(<span class="hljs-keyword">int</span> requestCode, <span class="hljs-keyword">int</span> resultCode, Intent data)</span> </span>{
+        <span class="hljs-keyword">super</span>.onActivityResult(requestCode, resultCode, data);
+        <span class="hljs-keyword">if</span> (resultCode == Activity.RESULT_OK) {
+            goToSignedInActivity();
+        }
+    }
+
+}</code></pre>
+
+<p>Where <code>activity_sign_in.xml</code> looks like this:</p>
+<pre><code class="hljs xml"><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">"1.0"</span> encoding=<span class="hljs-string">"utf-8"</span><span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-tag">&lt;<span class="hljs-name">RelativeLayout</span>
+    <span class="hljs-attr">xmlns:android</span>=<span class="hljs-string">"http://schemas.android.com/apk/res/android"</span>
+    <span class="hljs-attr">xmlns:tools</span>=<span class="hljs-string">"http://schemas.android.com/tools"</span>
+    <span class="hljs-attr">android:layout_width</span>=<span class="hljs-string">"match_parent"</span>
+    <span class="hljs-attr">android:layout_height</span>=<span class="hljs-string">"match_parent"</span>
+    <span class="hljs-attr">tools:context</span>=<span class="hljs-string">"com.telenor.connect.connectidexample.SignInActivity"</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">com.telenor.connect.ui.ConnectLoginButton</span>
+        <span class="hljs-attr">android:layout_centerInParent</span>=<span class="hljs-string">"true"</span>
+        <span class="hljs-attr">android:id</span>=<span class="hljs-string">"@+id/login_button"</span>
+        <span class="hljs-attr">android:layout_width</span>=<span class="hljs-string">"wrap_content"</span>
+        <span class="hljs-attr">android:layout_height</span>=<span class="hljs-string">"wrap_content"</span>
+        <span class="hljs-attr">style</span>=<span class="hljs-string">"@style/com_telenor_ConnectButton.Dark"</span>/&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">RelativeLayout</span>&gt;</span></code></pre>
+
+
+      <div class="lesson-nav">
+          <a class="prev" href="/id-docs.telenordigital.com/integrate-android-sdk/setup.html">&larr; Setup</a>
+          <a class="next right" href="/id-docs.telenordigital.com/integrate-android-sdk/get-access-token.html">Get a valid access token &rarr;</a>
+      </div>
+        <a class="docs-edit-btn no-print" href="https://github.com/TelenorDigital/id-docs.telenordigital.com/edit/master/docs/integrate-android-sdk/sign-in-user.md" target="_blank">Edit this page</a>
+    </div>
+  </div>
+    <script src="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-bundle.js" ></script>
+    <script src="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-docs-preset.js" ></script>
+  <script src="/id-docs.telenordigital.com/script/vendor.js" ></script>
+  <script src="/id-docs.telenordigital.com/script/script.js" ></script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+</html>

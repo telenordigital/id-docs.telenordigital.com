@@ -1,0 +1,366 @@
+<!doctype html>
+<html class="docs-html">
+<head>
+  <meta charset="utf-8">
+  <title>Authorization code examples - CONNECT ID Documentation</title>
+    <meta name="description" content="authorization code examples">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Authorization code examples - CONNECT ID Documentation">
+  <meta name="twitter:description" content="authorization code examples">
+  <meta name="twitter:image" content="https://telenordigital.github.io/id-docs.telenordigital.com/img/og_image.jpg">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Authorization code examples - CONNECT ID Documentation" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://telenordigital.github.io/id-docs.telenordigital.com/authorization-and-authentication/authorization-examples.html" />
+  <meta property="og:image" content="https://telenordigital.github.io/id-docs.telenordigital.com/img/og_image.jpg" />
+  <meta property="og:description" content="authorization code examples" />
+  <meta property="og:site_name" content="CONNECT ID Documentation" />
+
+  <link rel="stylesheet" type="text/css" href="/id-docs.telenordigital.com/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-docs-preset.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link id="searchIndex" href="/id-docs.telenordigital.com/index.json" rel="preload" as="fetch">
+</head>
+<body class="docs-body">
+  <div id="docs-topbar" class="docs-topbar no-print">
+    <div id="docs-topbar__inner" class="docs-topbar__inner">
+      <a href="#" id="docs-menu-toggle" class="docs-topbar__icon docs-topbar__icon--menu-toggle hidden-desktop"><i class="material-icons md-24">menu</i></a>
+      <a href="#" id="docs-search-hide" class="docs-topbar__icon docs-topbar__icon--search-hide hidden-desktop"><i class="material-icons md-24">arrow_back</i></a>
+      <div class="docs-topbar__icon docs-topbar__icon--search visible-desktop"><i class="material-icons md-24">search</i></div>
+      <input id="docs-search-box" type="text" class="docs-topbar__search-box" placeholder="Search" tabindex="1" autocapitalize="none" autocomplete="off" autocorrect="off" autofocus />
+      <a href="#" id="docs-search-close" class="docs-topbar__icon docs-topbar__icon--search-close"><i class="material-icons md-24">close</i></a>
+      <a href="#" id="docs-search-show" class="docs-topbar__icon docs-topbar__icon-search-show hidden-desktop"><i class="material-icons md-24">search</i></a>
+
+          <a class="docs-topbar__link visible-desktop" href="https://github.com/telenordigital/id-docs.telenordigital.com">On Github</a>
+    </div>
+    <div id="docs-search" class="docs-search">
+      <ul id="docs-search-results" class="docs-search-results"></ul>
+    </div>
+  </div>
+  <div id="docs-sidebar" class="docs-sidebar visible-desktop no-print">
+    <nav class="docs-nav">
+      <a class="docs-nav__logo" href="/id-docs.telenordigital.com/"></a>
+        <ul class="docs-nav__ul">
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">Get started</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/get-started/register-client.html" class="docs-nav__item">Register client</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/get-started/client-registration-details.html" class="docs-nav__item">Required registration details</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">What is CONNECT?</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/how-it-works.html" class="docs-nav__item">How it works</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/single-sign-on.html" class="docs-nav__item">Single sign on</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/levels-of-assurance.html" class="docs-nav__item">Levels of assurance</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/account-management.html" class="docs-nav__item">Account management</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/other-features.html" class="docs-nav__item">Other CONNECT features</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/what-is-connect/ui-examples.html" class="docs-nav__item">UI examples</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/general-recommendations.html" class="docs-nav__item">General recommendations</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/integration-sign-in-details.html" class="docs-nav__item">Integration details for handling sign in</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/session-handling.html" class="docs-nav__item">Session handling</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/general-recommendations/terminology.html" class="docs-nav__item">Terminology/Glossary</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">Integrate</span>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-android-sdk.html" class="docs-nav__item">Android SDK integration</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/setup.html" class="docs-nav__item">Setup</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/sign-in-user.html" class="docs-nav__item">Sign in user</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/get-access-token.html" class="docs-nav__item">Get a valid access token</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/access-user-information.html" class="docs-nav__item">Access user information</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/check-user-state.html" class="docs-nav__item">Check user state</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/customise-the-user-experience.html" class="docs-nav__item">Customise the user experience</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-android-sdk/go-to-production.html" class="docs-nav__item">Go to production</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-ios-sdk.html" class="docs-nav__item">iOS SDK integration</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/set-up.html" class="docs-nav__item">Set up</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/check-user-is-signed-in.html" class="docs-nav__item">Check user is signed in</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/integrate-ios-sdk/get-access-token.html" class="docs-nav__item">Get access token</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/integrate-web-app.html" class="docs-nav__item">Web application integration</a>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">CONNECT features</span>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/authorization-and-authentication.html" class="docs-nav__item">Authorization &amp; authentication</a>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/scope.html" class="docs-nav__item">Scope</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/client-security-measures.html" class="docs-nav__item">Client security measures</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/id-token.html" class="docs-nav__item">ID token</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/sso.html" class="docs-nav__item">Single sign-on</a>
+                            </li>
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/authorization-and-authentication/authorization-examples.html" class="docs-nav__item">Authorization code examples</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="docs-nav__li docs-nav__li--subgroup">
+                          <a href="/id-docs.telenordigital.com/user-data.html" class="docs-nav__item">User data</a>
+                </li>
+                <li class="docs-nav__li docs-nav__li--category">
+                          <span class="docs-nav__item">API Reference</span>
+                    <ul class="docs-nav__ul">
+                            <li class="docs-nav__li">
+                                      <a href="/id-docs.telenordigital.com/apireference/authentication.html" class="docs-nav__item">Authentication &amp; authorization</a>
+                            </li>
+                    </ul>
+                </li>
+        </ul>
+        <div class="docs-sidebar__menuLinks hidden-desktop">
+          <hr class="docs-nav__hr" />
+          <ul class="docs-nav__ul">
+              <li class="docs-nav__li">
+                <a href="https://github.com/telenordigital/id-docs.telenordigital.com" class="docs-nav__item">On Github</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <div id="barba-wrapper" class="docs-wrapper">
+    <div class="docs-content barba-container">
+      <h1>Authorization code examples</h1>
+        <ol class="docs-breadcrumbs tn-breadcrumbs visible-desktop">
+                <li class="tn-breadcrumb">
+                    <a href="/id-docs.telenordigital.com/">Home</a>
+                </li>
+              <li class="tn-breadcrumb">
+                      <a href="/id-docs.telenordigital.com/authorization-and-authentication.html">Authorization &amp; authentication</a>
+              </li>
+            <li class="tn-breadcrumb tn-breadcrumb--active">Authorization code examples</li>
+        </ol>
+      <p>This page contains some Java code snippets which can help in implementing an OAuth client. To
+simplify the RESTful calls, the <a href="https://jersey.java.net/">Jersey library</a> is used to perform the
+HTTP requests in these examples, but any library can be used.</p>
+<p>All endpoints called in this page are thoroughly documented on the corresponding
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html">API page</a>. Please refer to that page for an in-depth
+explanation of the various parameters that are used. The following content assumes that you have
+successfully registered as a client developer integrating with CONNECT and have received your
+client ID (and client secret for confidential clients).</p>
+<p>The example code does not utilize all available parameters for the authorization server, but a
+bare-bones example. Extending the examples should be fairly straightforward if referring to the
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html">API page</a>.</p>
+<p>NOTE: Most OAuth endpoints return <a href="http://www.json.org">JSON</a> objects. For brevity, parsing these
+objects is omitted from the examples. We strongly recommend using a JSON library for your
+programming language in order to parse and extract attributes from the returned responses.</p>
+<h2 id="authorization-initiation">Authorization initiation</h2>
+<p>When a user should be authenticated and enabled to authorize your client access to their protected
+resources, their user-agent (usually a browser) should send a request to the
+<a href="http://docs.telenordigital.com/apis/connect/id/authentication.html#authorization-server-user-authorization">/authorize</a>
+endpoint. The following code constructs a URI to this endpoint.</p>
+<pre><code>@GET
+@Path(&quot;/authorizeme&quot;)
+public Response getAuthorization() {
+    final String state = Long.toHexString(UUID.randomUUID().getLeastSignificantBits());
+    final NewCookie cookie = new NewCookie(
+            &quot;oauthState&quot;, // Key
+            state,        // Value
+            &quot;/callback&quot;,  // Path where cookie is valid (see redirect_uri)
+            &quot;my-supplied-redirect-uri.com&quot;, // Domain where cookie is valid (see redirect_uri)
+            null,         // Arbitrary comment
+            7200,         // Time to live
+            true);        // If true, cookie is never sent over unencrypted connection
+    final URI authUri = UriBuilder.fromUri(&quot;https://connect.staging.telenordigital.com/oauth&quot;)
+            .path(&quot;authorize&quot;)
+            .queryParam(&quot;response_type&quot;, &quot;code&quot;)
+            .queryParam(&quot;client_id&quot;, &quot;mycompany-myapp-clientplatform&quot;)
+            .queryParam(&quot;redirect_uri&quot;, &quot;https://my-supplied-redirect-uri.com/callback&quot;)
+            .queryParam(&quot;scope&quot;, &quot;openid profile email phone&quot;)
+            .queryParam(&quot;state&quot;, state)
+            .cookie(cookie);
+            .build();
+    return Response.seeOther(authUri);
+}
+</code></pre><p>The way the user is redirected to the authorization endpoint depends on the client. If the client
+is confidential (e.g. a server hosting a website), the user-agent is instructed to load the
+authorize endpoint through a redirect as seen above. If the client is public,
+the URI generated above can be directly loaded by the user’s browser.</p>
+<h2 id="capturing-an-authorization-code">Capturing an authorization code</h2>
+<p>When the user has authorized (or cancelled) the request for access to the end user’s protected
+resources, the authorization server redirects the user to the URI specified in the redirect_uri
+shown in the code above. This can, once again, be an endpoint on your confidential client. The
+following example represents the Jersey REST method that responds to HTTP requests on the URI
+https<nolink>://my-supplied-redirect-uri.com/callback.</p>
+<pre><code>@GET
+@Path(&quot;/callback&quot;)
+public Response finishAuthorization(
+        @QueryParam(&quot;code&quot;) final String code,
+        @QueryParam(&quot;state&quot;) final String state,
+        @QueryParam(&quot;error&quot;) final String error,
+        @QueryParam(&quot;error_description&quot;) final String error_description,
+        @CookieParam(&quot;oauthState&quot;) final String storedState) {
+    if (error != null &amp;&amp; !error.isEmpty()) {
+        // Authentication/authorization failed/cancelled. See error description.
+        return someErrorPageOrRedirectToAuthorize;
+    }
+    if (!state.equals(storedState)) {
+        // Possible session hijack. User should not be allowed to proceed.
+        return someErrorPageOrRedirectToAuthorize;
+    }
+    final String tokenResponseJson = getTokens(code);
+    // Store access token and refresh token in a secure database here.
+    return successPage;
+}
+</code></pre><p>The state can be stored any way you like, as long as it is checked before an authorization code is
+exchanged for tokens. Its purpose is to mitigate certain security issues, and should therefore
+always be unique for every call to /authorize.</p>
+<h2 id="trading-an-authorization-code-for-an-access-and-refresh-token-pair">Trading an authorization code for an access and refresh token pair</h2>
+<p>The getTokens() method in the example above trades the authorization code for an access and
+refresh token pair and optionally an <a href="id-token.html">ID token</a> if the authorization endpoint
+was accessed with the openid <a href="scope.html">scope</a> value specified.</p>
+<pre><code>public String getTokens(final String authorizationCode) {
+    final Form form = new Form();
+    form.param(&quot;grant_type&quot;, &quot;authorization_code&quot;);
+    form.param(&quot;client_id&quot;, &quot;mycompany-myapp-clientplatform&quot;);
+    form.param(&quot;redirect_uri&quot;, &quot;https://my-supplied-redirect-uri.com/callback&quot;);
+    form.param(&quot;code&quot;, authorizationCode);
+    final Client httpClient = ClientBuilder
+            .newClient()
+            .register(HttpAuthenticationFeature.basic(&quot;mycompany-myapp-clientplatform&quot;, &quot;myClientSecret&quot;));
+    final Response response = httpClient
+            .target(&quot;https://connect.staging.telenordigital.com/oauth&quot;)
+            .path(&quot;token&quot;)
+            .request(MediaType.APPLICATION_JSON)
+            .post(Entity.entity(form, MediaType.APPLICATION_FORM_URLENCODED_TYPE), String.class);
+    final String result = response.readEntity(String.class);
+    if (response.getStatusInfo().getFamily() != Response.Status.Family.SUCCESSFUL) {
+        // Read status code and the JSON returned.
+        // It probably has &quot;error&quot; and &quot;error_description&quot; attributes that explain the problem.
+    }
+
+    // Verify that the scope equals what was requested here.
+    return returnedTokens;
+}
+</code></pre><p>Once the tokens are obtained, they can be extracted from the returned JSON document with your
+favorite JSON library. If an ID token was requested, the
+<a href="http://openid.net/specs/openid-connect-core-1_0.html#IDTokenValidation">OpenID Connect specification</a>
+states that the token must be validated before it is accepted.</p>
+<h2 id="refreshing-the-token-pair">Refreshing the token pair</h2>
+<p>Access tokens are short-lived, being invalidated after about an hour. For this reason, a refresh
+token is provided. This token can be used to request a new access and refresh token pair. The old
+refresh token should be disposed of when the new one is acquired. If the client gets 401 errors
+when using the access token, the client should always try to refresh it. The code to do this is
+quite similar to the one above:</p>
+<pre><code>public String refreshTokens(final String refreshToken) {
+    final Form form = new Form();
+    form.param(&quot;grant_type&quot;, &quot;refresh_token&quot;);
+    form.param(&quot;refresh_token&quot;, refreshToken);
+    final Client httpClient = ClientBuilder
+            .newClient()
+            .register(HttpAuthenticationFeature.basic(&quot;mycompany-myapp-clientplatform&quot;, &quot;myClientSecret&quot;));
+    final Response response = httpClient
+            .target(&quot;https://connect.staging.telenordigital.com/oauth&quot;)
+            .path(&quot;token&quot;)
+            .request(MediaType.APPLICATION_JSON)
+            .post(Entity.entity(form, MediaType.APPLICATION_FORM_URLENCODED_TYPE));
+    final String result = response.readEntity(String.class);
+    if (response.getStatusInfo().getFamily() != Response.Status.Family.SUCCESSFUL) {
+        // Read status code and the JSON returned.
+        // It probably has &quot;error&quot; and &quot;error_description&quot; attributes that explain the problem.
+        // The refresh token might have expired as well. Try getting the user to reauthorize access.
+    }
+
+    // Verify that the scope equals what was requested here.
+    return returnedTokens;
+}
+</code></pre><h2 id="using-an-access-token-to-call-connect-resources">Using an access token to call CONNECT resources</h2>
+<p>Many CONNECT resources can be accessed by using OAuth access tokens. See the <a href="scope.html">scope</a>
+for an exhaustive list of all the scope values to request at authorization initiation to get tokens
+usable at our endpoints.</p>
+<p>The following example shows how to access the ID user endpoint for basic user information using the\
+access token. The scope value needed for this call is “id.user.read”.</p>
+<pre><code>public String getUserInfo(final String accessToken) {
+    final Response response = ClientBuilder
+            .newClient()
+            .target(&quot;https://api.staging.telenor.io&quot;)
+            .path(&quot;id/users/me&quot;)
+            .request(MediaType.APPLICATION_JSON)
+            .header(&quot;Authorization&quot;, &quot;Bearer &quot; + accessToken);
+    if (response.getStatusInfo().getFamily() != Response.Status.Family.SUCCESSFUL) {
+        // Handle error. If HTTP response code is 401, the access token used is not valid anymore.
+        // Client should attempt to refresh its token pair with the related refresh token.
+    }
+    return response.readEntity(String.class);
+}
+</code></pre>
+      <div class="lesson-nav">
+          <a class="prev" href="/id-docs.telenordigital.com/authorization-and-authentication.html">&larr; Authorization & authentication</a>
+          <a class="next right" href="/id-docs.telenordigital.com/authorization-and-authentication/client-security-measures.html">Client security measures &rarr;</a>
+      </div>
+        <a class="docs-edit-btn no-print" href="https://github.com/TelenorDigital/id-docs.telenordigital.com/edit/master/docs/authorization-and-authentication/authorization-examples.md" target="_blank">Edit this page</a>
+    </div>
+  </div>
+    <script src="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-bundle.js" ></script>
+    <script src="/id-docs.telenordigital.com/script/swagger-ui/swagger-ui-docs-preset.js" ></script>
+  <script src="/id-docs.telenordigital.com/script/vendor.js" ></script>
+  <script src="/id-docs.telenordigital.com/script/script.js" ></script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+</html>
