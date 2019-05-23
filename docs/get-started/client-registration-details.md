@@ -25,7 +25,7 @@ Mandatory:
 -   Product/service name.
 -   Descriptive user-facing name for the product/service.
 This will be used in communication with end users, e.g. on the OAuth consent page or when
-the end user is managing permission in the [My CONNECT account](http://docs.telenordigital.com/myaccount/index.html) client.
+the end user is managing permission in the [My CONNECT account](http://docs.telenordigital.com/connect/myaccount/) client.
 Different clients should not have the same descriptive name.
 -   Detailed description of the product/service.
 -   Email address for technical contact.
