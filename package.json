@@ -64,6 +64,7 @@
     "barba.js": "^1.0.0",
     "browserify": "^14.5.0",
     "cheerio": "^1.0.0-rc.2",
+    "diff": "^4.0.1",
     "event-stream": "3.3.4",
     "fstream": "^1.0.12",
     "gulp": "^3.9.1",
