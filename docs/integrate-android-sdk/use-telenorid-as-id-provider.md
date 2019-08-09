@@ -1,6 +1,6 @@
 ---
-title: Use Telenor ID as id provider
-description: Detailed information about switching between id provider brands
+title: Use Telenor ID as ID provider
+description: Detailed information about switching between ID provider brands
 collection: integrate-android-sdk
 order: 8
 lunr: true
@@ -16,17 +16,17 @@ tags:
   - state
   - how to
   - Telenor ID
-  - id provider
+  - ID provider
 ---
 
 
 ## Multiple ID providers
 
-The SDK starting from version 2.1 allows to choose between multiple ID providers. Currently supported providers are CONNECT ID and Telenor ID. If you are updating to version 2.1 from older versions without any code change - CONNECT ID will be used as a default id provider.
+Starting from version 2.1, the SDK allows to choose between multiple ID providers. Currently supported providers are CONNECT ID and Telenor ID. If you are updating to version 2.1 from older versions without any code change - CONNECT ID will be used as a default ID provider.
 
 ## Selecting new ID provider
 
-When initializing SDK you can select an ID provider that you want to use from `IdProvider` class. Note, that you cannot use multiple ID providers at the same time.
+When initializing the SDK you can select an ID provider that you want to use from the `IdProvider` class. Note, that you cannot use multiple ID providers at the same time.
 
 ```java
 ConnectSdk.sdkInitialize(getApplicationContext(), IdProvider.TELENOR_ID, true);
@@ -36,7 +36,7 @@ ConnectSdk.sdkInitialize(getApplicationContext(), IdProvider.TELENOR_ID, true);
 
 While using Telenor ID as an ID provider we require to follow new style guidelines. You have to use `@style/ConnectTheme.TelenorId` as a default style for `ConnectLoginButton`.
 
-The full minimum code for the button will look next way:
+The full minimum code for the button will look like this:
 
 ```XML
 <com.telenor.connect.ui.ConnectLoginButton
@@ -47,8 +47,8 @@ The full minimum code for the button will look next way:
         />
 ```
 
-You can try it out in example application.
+You can try it out in the example application.
 
 ## Adding "What is Telenor ID" page
 
-The SDK starting from version 2.1 also adds a new view component, for displaying the description about Telenor ID. To enable it, use `com.telenor.connect.ui.ConnectAboutTextView` in your layout files.
+Starting from version 2.1, the SDK adds a new view component, for displaying the description about Telenor ID. To enable it, use `com.telenor.connect.ui.ConnectAboutTextView` in your layout files.
