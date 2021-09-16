@@ -18,4 +18,4 @@ Different clients require new configurations so they must be registered separate
 
 Responses may take up to one working day.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmoiS8YabxJpIbrRwJ1ZANxlVPwHUqNRsaupyNyFDMlZ0PNA/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+Please get in touch at integration-support<span style="display:none">nospamfiller</span>@telenordigital.com
