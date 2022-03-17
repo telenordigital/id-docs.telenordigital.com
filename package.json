@@ -90,7 +90,7 @@
     "node-normalize-scss": "^3.0.0",
     "remark-html": "^6.0.1",
     "rimraf": "^2.6.2",
-    "swagger-ui-dist": "^3.0.21",
+    "swagger-ui-dist": "^4.1.3",
     "tar": "^4.4.8",
     "textversionjs": "^1.0.2",
     "uglify-es": "^3.0.27",
